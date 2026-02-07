@@ -1,0 +1,3370 @@
+<html class="/frontpage" lang="en">
+<head>
+	<meta charset="utf-8">  
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	  
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/frontpage.css">
+	<link rel="stylesheet" href="/css/haxe.io.css">
+	<link rel="stylesheet" href="/css/normalize-opentype.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:600,400,700,800|Gentium+Book+Basic:400,700">
+	
+	<meta content="summary_large_image" name="twitter:card"> 
+	<meta content="@skial" name="twitter:site">
+	<meta content="@skial" name="twitter:creator"> 
+	<meta content="Haxe.io — News & Information For Haxe Developers" name="twitter:title">
+	<meta name="twitter:description" content="Handpicked news and resources for Haxe, a high level, cross-platform, statically and strongly typed programming language. Find the latest jobs, tutorials, videos, presentations and events covered weekly on the community blog.">
+	<meta content="https://haxe.io/img/skial.jpg" name="twitter:image:src">
+	
+	<meta property="og:title" content="Haxe.io — News & Information For Haxe Developers">
+	<meta property="og:image" content="https://haxe.io/img/skial.jpg">
+	<meta property="og:url" content="https://haxe.io/">
+	<meta property="og:description" content="Handpicked news and resources for Haxe, a high level, cross-platform, statically and strongly typed programming language. Find the latest jobs, tutorials, videos, presentations and events covered weekly on the community blog.">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Haxe.io — News & Information For Haxe Developers">
+	
+	<meta name="description" content="Handpicked news and resources for Haxe, a high level, cross-platform, statically and strongly typed programming language. Find the latest jobs, tutorials, videos, presentations and events covered weekly on the community blog.">
+	<link rel="author" href="https://plus.google.com/+SkialBainn/posts">
+	<link title="Haxe.io Feed" rel="alternate" type="application/rss+xml" href="http://blog.skialbainn.com/rss">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=wAANbdxLQn">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=wAANbdxLQn">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png?v=wAANbdxLQn" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-194x194.png?v=wAANbdxLQn" sizes="194x194">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png?v=wAANbdxLQn" sizes="96x96">
+	<link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=wAANbdxLQn" sizes="192x192">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png?v=wAANbdxLQn" sizes="16x16">
+	<link rel="manifest" href="/manifest.json?v=wAANbdxLQn">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg?v=wAANbdxLQn" color="#fffdf9">
+	<link rel="shortcut icon" href="/favicon.ico?v=wAANbdxLQn">
+	<meta name="msapplication-TileColor" content="#f15922">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png?v=wAANbdxLQn">
+	<meta name="theme-color" content="#ffffff">
+	<title>Haxe.io — News And Information For Haxe Developers</title>
+	
+</head>
+<body>
+	<input type="checkbox" id="news" name="nav-group">
+	<input type="checkbox" id="ludumdare" name="nav-group">
+	<input type="checkbox" id="releases" name="nav-group">
+	<input type="checkbox" id="events" name="nav-group">
+	<input type="checkbox" id="speaker" name="nav-group">
+	<input type="checkbox" id="videos" name="nav-group">
+	<input type="checkbox" id="articles" name="nav-group">
+	<header class="grid">
+		<div class="grid-1-1">
+			<a type="image/logo" href="/">
+				<svg viewBox="0 0 320 320" enable-background="new">
+					<defs>
+						
+		          
+						
+							<symbol id="external-link" viewBox="0 0 100 125">
+								<path d="m90.474 5.04h-28.685c-2.3 0-4.164 1.864-4.164 4.164s1.864 4.164 4.164 4.164h19.095l-40.864 40.864c-1.627 1.626-1.627 4.263 0 5.889 0.813 0.813 1.879 1.22 2.944 1.22s2.131-0.407 2.944-1.22l40.402-40.403v18.17c0 2.3 1.864 4.164 4.164 4.164s4.164-1.864 4.164-4.164v-28.684c0-2.3-1.864-4.164-4.164-4.164z"/><path d="m76.071 46.976c-2.3 0-4.164 1.864-4.164 4.164v32.852c0 1.505-1.271 2.776-2.776 2.776h-53.09c-1.505 0-2.776-1.271-2.776-2.776v-53.09c0-1.505 1.271-2.776 2.776-2.776h32.968c2.3 0 4.164-1.864 4.164-4.164s-1.864-4.164-4.164-4.164h-32.968c-6.123 0-11.104 4.981-11.104 11.104v53.09c0 6.123 4.981 11.104 11.104 11.104h53.09c6.123 0 11.104-4.981 11.104-11.104v-32.852c0-2.299-1.864-4.164-4.164-4.164z"/>
+							</symbol>
+						
+					</defs>
+					<g>
+						<g id="a" transform="translate(-2,-2)">
+							<path stroke-width="15.6" stroke="#000" d="m93.7 25.3-68.4 68.3" stroke-linecap="round" fill="none"></path>
+							<path stroke-width="15.3" stroke="#000" id="b" d="m52.4 153 36.6-37" stroke-linecap="round" transform="translate(2)" fill="none"></path>
+							<path stroke-width="14" stroke="#000" d="m271 22.5-246 246" stroke-linecap="round" fill="none"></path>
+							<use height="1052.3622" y="0" x="0" xlink:href="#b" width="744.09448" transform="translate(60,-60)"></use>
+						</g>
+						<use height="1052.3622" y="0" x="0" xlink:href="#a" width="744.09448" transform="matrix(-1 0 0 -1 332 331)"></use>
+					</g>
+				</svg>
+			</a>
+			<div class="name">
+				<span class="long">haxe</span><span class="short">h</span><span class="long">.</span><span class="short dot">·</span><span>io</span>
+			</div>
+		</div>
+		<nav class="tabs">
+			<ul>
+				<li>
+					<p>Filter by</p>
+					<svg class="filter enabled" viewBox="0 0 16 20">
+						<path d="m14.5 0h-12c-1.375 0-1.705 0.795-0.732 1.768l5.232 5.232v8c0 0.55 0.318 0.682 0.707 0.293l1.586-1.586c0.389-0.389 0.707-1.157 0.707-1.707v-5l5.232-5.232c0.972-0.973 0.643-1.768-0.732-1.768z"/>
+					</svg>
+					<svg class="filter disabled" viewBox="0 -1 16 20">
+						<g transform="translate(.25424 -.084746)">
+							<path d="m14.246 0.050847-7.5 7.5v5.5c0 0.55 0.375 0.75 0.832 0.445l1.336-0.891c0.458-0.304 0.832-1.004 0.832-1.554v-4l5.232-5.232c0.972-0.973 0.643-1.768-0.732-1.768z"/>
+							<path d="m12.152-0.85615c-0.048-0.108-0.11-0.211-0.199-0.3-0.391-0.391-1.023-0.391-1.414 0l-1.207 1.207h-7.086c-1.375 0-1.705 0.795-0.732 1.768l3.025 3.025-3.5 3.5c-0.391 0.391-0.391 1.023 0 1.414 0.195 0.195 0.451 0.293 0.707 0.293s0.512-0.098 0.707-0.293l0.707-0.707 8.793-8.793c0.302-0.302 0.364-0.746 0.199-1.114z"/>
+						</g>
+					</svg>
+				</li>
+				<li><label for="news"><span class="long">Weekly </span><span class="short">Wkly </span>News</label></li>
+				<li><label for="articles">Art<span class="short">.</span><span class="long">icles</span></label></li>
+				<li><label for="releases">Rel<span class="short">.</span><span class="long">eases</span></label></li>
+				<li><label for="events"><span class="short">Evnt</span><span class="long">Events</span></label></li>
+				<li><label for="ludumdare"><span class="long">Ludum Dare</span><span class="short">LD</span></label></li>
+				<li><label for="speaker"><span class="long">Developer Interviews</span><span class="short">Bios</span></label></li>
+				<li><label for="videos">Vid<span class="long">eo</span>s</label></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<ul>
+			<li itemtype="http://schema.org/Article" itemscope="" id="haxe.io future">
+				<a href="https://github.com/skial/haxe.io/issues/1201" title="Haxe.io's Future">
+					<h1 itemprop="headline">Haxe.io's Future</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="730" itemscope>
+				<a title="Haxe Roundup № 730" href="/roundups/730/">
+					<h1 itemprop="headline">Haxe Roundup № 730</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="729" itemscope>
+				<a title="Haxe Roundup № 729" href="/roundups/729/">
+					<h1 itemprop="headline">Haxe Roundup № 729</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="728" itemscope>
+				<a title="Haxe Roundup № 728" href="/roundups/728/">
+					<h1 itemprop="headline">Haxe Roundup № 728</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="727" itemscope>
+				<a title="Haxe Roundup № 727" href="/roundups/727/">
+					<h1 itemprop="headline">Haxe Roundup № 727</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="726" itemscope>
+				<a title="Haxe Roundup № 726" href="/roundups/726/">
+					<h1 itemprop="headline">Haxe Roundup № 726</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="725" itemscope>
+				<a title="Haxe Roundup № 725" href="/roundups/725/">
+					<h1 itemprop="headline">Haxe Roundup № 725</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="724" itemscope>
+				<a title="Haxe Roundup № 724" href="/roundups/724/">
+					<h1 itemprop="headline">Haxe Roundup № 724</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="723" itemscope>
+				<a title="Haxe Roundup № 723" href="/roundups/723/">
+					<h1 itemprop="headline">Haxe Roundup № 723</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="722" itemscope>
+				<a title="Haxe Roundup № 722" href="/roundups/722/">
+					<h1 itemprop="headline">Haxe Roundup № 722</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="721" itemscope>
+				<a title="Haxe Roundup № 721" href="/roundups/721/">
+					<h1 itemprop="headline">Haxe Roundup № 721</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="720" itemscope>
+				<a title="Haxe Roundup № 720" href="/roundups/720/">
+					<h1 itemprop="headline">Haxe Roundup № 720</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="719" itemscope>
+				<a title="Haxe Roundup № 719" href="/roundups/719/">
+					<h1 itemprop="headline">Haxe Roundup № 719</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="718" itemscope>
+				<a title="Haxe Roundup № 718" href="/roundups/718/">
+					<h1 itemprop="headline">Haxe Roundup № 718</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="717" itemscope>
+				<a title="Haxe Roundup № 717" href="/roundups/717/">
+					<h1 itemprop="headline">Haxe Roundup № 717</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="716" itemscope>
+				<a title="Haxe Roundup № 716" href="/roundups/716/">
+					<h1 itemprop="headline">Haxe Roundup № 716</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="715" itemscope>
+				<a title="Haxe Roundup № 715" href="/roundups/715/">
+					<h1 itemprop="headline">Haxe Roundup № 715</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="714" itemscope>
+				<a title="Haxe Roundup № 714" href="/roundups/714/">
+					<h1 itemprop="headline">Haxe Roundup № 714</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="713" itemscope>
+				<a title="Haxe Roundup № 713" href="/roundups/713/">
+					<h1 itemprop="headline">Haxe Roundup № 713</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="712" itemscope>
+				<a title="Haxe Roundup № 712" href="/roundups/712/">
+					<h1 itemprop="headline">Haxe Roundup № 712</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="711" itemscope>
+				<a title="Haxe Roundup № 711" href="/roundups/711/">
+					<h1 itemprop="headline">Haxe Roundup № 711</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="710" itemscope>
+				<a title="Haxe Roundup № 710" href="/roundups/710/">
+					<h1 itemprop="headline">Haxe Roundup № 710</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="709" itemscope>
+				<a title="Haxe Roundup № 709" href="/roundups/709/">
+					<h1 itemprop="headline">Haxe Roundup № 709</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="708" itemscope>
+				<a title="Haxe Roundup № 708" href="/roundups/708/">
+					<h1 itemprop="headline">Haxe Roundup № 708</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="707" itemscope>
+				<a title="Haxe Roundup № 707" href="/roundups/707/">
+					<h1 itemprop="headline">Haxe Roundup № 707</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="706" itemscope>
+				<a title="Haxe Roundup № 706" href="/roundups/706/">
+					<h1 itemprop="headline">Haxe Roundup № 706</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="705" itemscope>
+				<a title="Haxe Roundup № 705" href="/roundups/705/">
+					<h1 itemprop="headline">Haxe Roundup № 705</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="704" itemscope>
+				<a title="Haxe Roundup № 704" href="/roundups/704/">
+					<h1 itemprop="headline">Haxe Roundup № 704</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="703" itemscope>
+				<a title="Haxe Roundup № 703" href="/roundups/703/">
+					<h1 itemprop="headline">Haxe Roundup № 703</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="702" itemscope>
+				<a title="Haxe Roundup № 702" href="/roundups/702/">
+					<h1 itemprop="headline">Haxe Roundup № 702</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="701" itemscope>
+				<a title="Haxe Roundup № 701" href="/roundups/701/">
+					<h1 itemprop="headline">Haxe Roundup № 701</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="700" itemscope>
+				<a title="Haxe Roundup № 700" href="/roundups/700/">
+					<h1 itemprop="headline">Haxe Roundup № 700</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="699" itemscope>
+				<a title="Haxe Roundup № 699" href="/roundups/699/">
+					<h1 itemprop="headline">Haxe Roundup № 699</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="698" itemscope>
+				<a title="Haxe Roundup № 698" href="/roundups/698/">
+					<h1 itemprop="headline">Haxe Roundup № 698</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="697" itemscope>
+				<a title="Haxe Roundup № 697" href="/roundups/697/">
+					<h1 itemprop="headline">Haxe Roundup № 697</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="696" itemscope>
+				<a title="Haxe Roundup № 696" href="/roundups/696/">
+					<h1 itemprop="headline">Haxe Roundup № 696</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="695" itemscope>
+				<a title="Haxe Roundup № 695" href="/roundups/695/">
+					<h1 itemprop="headline">Haxe Roundup № 695</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="694" itemscope>
+				<a title="Haxe Roundup № 694" href="/roundups/694/">
+					<h1 itemprop="headline">Haxe Roundup № 694</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="693" itemscope>
+				<a title="Haxe Roundup № 693" href="/roundups/693/">
+					<h1 itemprop="headline">Haxe Roundup № 693</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="692" itemscope>
+				<a title="Haxe Roundup № 692" href="/roundups/692/">
+					<h1 itemprop="headline">Haxe Roundup № 692</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="691" itemscope>
+				<a title="Haxe Roundup № 691" href="/roundups/691/">
+					<h1 itemprop="headline">Haxe Roundup № 691</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="690" itemscope>
+				<a title="Haxe Roundup № 690" href="/roundups/690/">
+					<h1 itemprop="headline">Haxe Roundup № 690</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="689" itemscope>
+				<a title="Haxe Roundup № 689" href="/roundups/689/">
+					<h1 itemprop="headline">Haxe Roundup № 689</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="688" itemscope>
+				<a title="Haxe Roundup № 688" href="/roundups/688/">
+					<h1 itemprop="headline">Haxe Roundup № 688</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="687" itemscope>
+				<a title="Haxe Roundup № 687" href="/roundups/687/">
+					<h1 itemprop="headline">Haxe Roundup № 687</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="686" itemscope>
+				<a title="Haxe Roundup № 686" href="/roundups/686/">
+					<h1 itemprop="headline">Haxe Roundup № 686</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="685" itemscope>
+				<a title="Haxe Roundup № 685" href="/roundups/685/">
+					<h1 itemprop="headline">Haxe Roundup № 685</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="684" itemscope>
+				<a title="Haxe Roundup № 684" href="/roundups/684/">
+					<h1 itemprop="headline">Haxe Roundup № 684</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="683" itemscope>
+				<a title="Haxe Roundup № 683" href="/roundups/683/">
+					<h1 itemprop="headline">Haxe Roundup № 683</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="682" itemscope>
+				<a title="Haxe Roundup № 682" href="/roundups/682/">
+					<h1 itemprop="headline">Haxe Roundup № 682</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="681" itemscope>
+				<a title="Haxe Roundup № 681" href="/roundups/681/">
+					<h1 itemprop="headline">Haxe Roundup № 681</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="680" itemscope>
+				<a title="Haxe Roundup № 680" href="/roundups/680/">
+					<h1 itemprop="headline">Haxe Roundup № 680</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="679" itemscope>
+				<a title="Haxe Roundup № 679" href="/roundups/679/">
+					<h1 itemprop="headline">Haxe Roundup № 679</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="678" itemscope>
+				<a title="Haxe Roundup № 678" href="/roundups/678/">
+					<h1 itemprop="headline">Haxe Roundup № 678</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="677" itemscope>
+				<a title="Haxe Roundup № 677" href="/roundups/677/">
+					<h1 itemprop="headline">Haxe Roundup № 677</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="676" itemscope>
+				<a title="Haxe Roundup № 676" href="/roundups/676/">
+					<h1 itemprop="headline">Haxe Roundup № 676</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="675" itemscope>
+				<a title="Haxe Roundup № 675" href="/roundups/675/">
+					<h1 itemprop="headline">Haxe Roundup № 675</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="674" itemscope>
+				<a title="Haxe Roundup № 674" href="/roundups/674/">
+					<h1 itemprop="headline">Haxe Roundup № 674</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="673" itemscope>
+				<a title="Haxe Roundup № 673" href="/roundups/673/">
+					<h1 itemprop="headline">Haxe Roundup № 673</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="672" itemscope>
+				<a title="Haxe Roundup № 672" href="/roundups/672/">
+					<h1 itemprop="headline">Haxe Roundup № 672</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="671" itemscope>
+				<a title="Haxe Roundup № 671" href="/roundups/671/">
+					<h1 itemprop="headline">Haxe Roundup № 671</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="670" itemscope>
+				<a title="Haxe Roundup № 670" href="/roundups/670/">
+					<h1 itemprop="headline">Haxe Roundup № 670</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="669" itemscope>
+				<a title="Haxe Roundup № 669" href="/roundups/669/">
+					<h1 itemprop="headline">Haxe Roundup № 669</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="668" itemscope>
+				<a title="Haxe Roundup № 668" href="/roundups/668/">
+					<h1 itemprop="headline">Haxe Roundup № 668</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="667" itemscope>
+				<a title="Haxe Roundup № 667" href="/roundups/667/">
+					<h1 itemprop="headline">Haxe Roundup № 667</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="666" itemscope>
+				<a title="Haxe Roundup № 666" href="/roundups/666/">
+					<h1 itemprop="headline">Haxe Roundup № 666</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="665" itemscope>
+				<a title="Haxe Roundup № 665" href="/roundups/665/">
+					<h1 itemprop="headline">Haxe Roundup № 665</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="664" itemscope>
+				<a title="Haxe Roundup № 664" href="/roundups/664/">
+					<h1 itemprop="headline">Haxe Roundup № 664</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="663" itemscope>
+				<a title="Haxe Roundup № 663" href="/roundups/663/">
+					<h1 itemprop="headline">Haxe Roundup № 663</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="662" itemscope>
+				<a title="Haxe Roundup № 662" href="/roundups/662/">
+					<h1 itemprop="headline">Haxe Roundup № 662</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="661" itemscope>
+				<a title="Haxe Roundup № 661" href="/roundups/661/">
+					<h1 itemprop="headline">Haxe Roundup № 661</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="660" itemscope>
+				<a title="Haxe Roundup № 660" href="/roundups/660/">
+					<h1 itemprop="headline">Haxe Roundup № 660</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="659" itemscope>
+				<a title="Haxe Roundup № 659" href="/roundups/659/">
+					<h1 itemprop="headline">Haxe Roundup № 659</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="658" itemscope>
+				<a title="Haxe Roundup № 658" href="/roundups/658/">
+					<h1 itemprop="headline">Haxe Roundup № 658</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="657" itemscope>
+				<a title="Haxe Roundup № 657" href="/roundups/657/">
+					<h1 itemprop="headline">Haxe Roundup № 657</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="656" itemscope>
+				<a title="Haxe Roundup № 656" href="/roundups/656/">
+					<h1 itemprop="headline">Haxe Roundup № 656</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="655" itemscope>
+				<a title="Haxe Roundup № 655" href="/roundups/655/">
+					<h1 itemprop="headline">Haxe Roundup № 655</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="654" itemscope>
+				<a title="Haxe Roundup № 654" href="/roundups/654/">
+					<h1 itemprop="headline">Haxe Roundup № 654</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="653" itemscope>
+				<a title="Haxe Roundup № 653" href="/roundups/653/">
+					<h1 itemprop="headline">Haxe Roundup № 653</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="652" itemscope>
+				<a title="Haxe Roundup № 652" href="/roundups/652/">
+					<h1 itemprop="headline">Haxe Roundup № 652</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="651" itemscope>
+				<a title="Haxe Roundup № 651" href="/roundups/651/">
+					<h1 itemprop="headline">Haxe Roundup № 651</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="650" itemscope>
+				<a title="Haxe Roundup № 650" href="/roundups/650/">
+					<h1 itemprop="headline">Haxe Roundup № 650</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="649" itemscope>
+				<a title="Haxe Roundup № 649" href="/roundups/649/">
+					<h1 itemprop="headline">Haxe Roundup № 649</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="648" itemscope>
+				<a title="Haxe Roundup № 648" href="/roundups/648/">
+					<h1 itemprop="headline">Haxe Roundup № 648</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="647" itemscope>
+				<a title="Haxe Roundup № 647" href="/roundups/647/">
+					<h1 itemprop="headline">Haxe Roundup № 647</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="646" itemscope>
+				<a title="Haxe Roundup № 646" href="/roundups/646/">
+					<h1 itemprop="headline">Haxe Roundup № 646</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="645" itemscope>
+				<a title="Haxe Roundup № 645" href="/roundups/645/">
+					<h1 itemprop="headline">Haxe Roundup № 645</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="644" itemscope>
+				<a title="Haxe Roundup № 644" href="/roundups/644/">
+					<h1 itemprop="headline">Haxe Roundup № 644</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="643" itemscope>
+				<a title="Haxe Roundup № 643" href="/roundups/643/">
+					<h1 itemprop="headline">Haxe Roundup № 643</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="642" itemscope>
+				<a title="Haxe Roundup № 642" href="/roundups/642/">
+					<h1 itemprop="headline">Haxe Roundup № 642</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="641" itemscope>
+				<a title="Haxe Roundup № 641" href="/roundups/641/">
+					<h1 itemprop="headline">Haxe Roundup № 641</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="640" itemscope>
+				<a title="Haxe Roundup № 640" href="/roundups/640/">
+					<h1 itemprop="headline">Haxe Roundup № 640</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="639" itemscope>
+				<a title="Haxe Roundup № 639" href="/roundups/639/">
+					<h1 itemprop="headline">Haxe Roundup № 639</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="638" itemscope>
+				<a title="Haxe Roundup № 638" href="/roundups/638/">
+					<h1 itemprop="headline">Haxe Roundup № 638</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="637" itemscope>
+				<a title="Haxe Roundup № 637" href="/roundups/637/">
+					<h1 itemprop="headline">Haxe Roundup № 637</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="636" itemscope>
+				<a title="Haxe Roundup № 636" href="/roundups/636/">
+					<h1 itemprop="headline">Haxe Roundup № 636</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="635" itemscope>
+				<a title="Haxe Roundup № 635" href="/roundups/635/">
+					<h1 itemprop="headline">Haxe Roundup № 635</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="634" itemscope>
+				<a title="Haxe Roundup № 634" href="/roundups/634/">
+					<h1 itemprop="headline">Haxe Roundup № 634</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="633" itemscope>
+				<a title="Haxe Roundup № 633" href="/roundups/633/">
+					<h1 itemprop="headline">Haxe Roundup № 633</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="632" itemscope>
+				<a title="Haxe Roundup № 632" href="/roundups/632/">
+					<h1 itemprop="headline">Haxe Roundup № 632</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="631" itemscope>
+				<a title="Haxe Roundup № 631" href="/roundups/631/">
+					<h1 itemprop="headline">Haxe Roundup № 631</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="630" itemscope>
+				<a title="Haxe Roundup № 630" href="/roundups/630/">
+					<h1 itemprop="headline">Haxe Roundup № 630</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="629" itemscope>
+				<a title="Haxe Roundup № 629" href="/roundups/629/">
+					<h1 itemprop="headline">Haxe Roundup № 629</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="628" itemscope>
+				<a title="Haxe Roundup № 628" href="/roundups/628/">
+					<h1 itemprop="headline">Haxe Roundup № 628</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="627" itemscope>
+				<a title="Haxe Roundup № 627" href="/roundups/627/">
+					<h1 itemprop="headline">Haxe Roundup № 627</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="626" itemscope>
+				<a title="Haxe Roundup № 626" href="/roundups/626/">
+					<h1 itemprop="headline">Haxe Roundup № 626</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="625" itemscope>
+				<a title="Haxe Roundup № 625" href="/roundups/625/">
+					<h1 itemprop="headline">Haxe Roundup № 625</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="624" itemscope>
+				<a title="Haxe Roundup № 624" href="/roundups/624/">
+					<h1 itemprop="headline">Haxe Roundup № 624</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="623" itemscope>
+				<a title="Haxe Roundup № 623" href="/roundups/623/">
+					<h1 itemprop="headline">Haxe Roundup № 623</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="622" itemscope>
+				<a title="Haxe Roundup № 622" href="/roundups/622/">
+					<h1 itemprop="headline">Haxe Roundup № 622</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="621" itemscope>
+				<a title="Haxe Roundup № 621" href="/roundups/621/">
+					<h1 itemprop="headline">Haxe Roundup № 621</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="620" itemscope>
+				<a title="Haxe Roundup № 620" href="/roundups/620/">
+					<h1 itemprop="headline">Haxe Roundup № 620</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="619" itemscope>
+				<a title="Haxe Roundup № 619" href="/roundups/619/">
+					<h1 itemprop="headline">Haxe Roundup № 619</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="618" itemscope>
+				<a title="Haxe Roundup № 618" href="/roundups/618/">
+					<h1 itemprop="headline">Haxe Roundup № 618</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="617" itemscope>
+				<a title="Haxe Roundup № 617" href="/roundups/617/">
+					<h1 itemprop="headline">Haxe Roundup № 617</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="616" itemscope>
+				<a title="Haxe Roundup № 616" href="/roundups/616/">
+					<h1 itemprop="headline">Haxe Roundup № 616</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="615" itemscope>
+				<a title="Haxe Roundup № 615" href="/roundups/615/">
+					<h1 itemprop="headline">Haxe Roundup № 615</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="614" itemscope>
+				<a title="Haxe Roundup № 614" href="/roundups/614/">
+					<h1 itemprop="headline">Haxe Roundup № 614</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="613" itemscope>
+				<a title="Haxe Roundup № 613" href="/roundups/613/">
+					<h1 itemprop="headline">Haxe Roundup № 613</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="612" itemscope>
+				<a title="Haxe Roundup № 612" href="/roundups/612/">
+					<h1 itemprop="headline">Haxe Roundup № 612</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="611" itemscope>
+				<a title="Haxe Roundup № 611" href="/roundups/611/">
+					<h1 itemprop="headline">Haxe Roundup № 611</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="610" itemscope>
+				<a title="Haxe Roundup № 610" href="/roundups/610/">
+					<h1 itemprop="headline">Haxe Roundup № 610</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="609" itemscope>
+				<a title="Haxe Roundup № 609" href="/roundups/609/">
+					<h1 itemprop="headline">Haxe Roundup № 609</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="608" itemscope>
+				<a title="Haxe Roundup № 608" href="/roundups/608/">
+					<h1 itemprop="headline">Haxe Roundup № 608</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="607" itemscope>
+				<a title="Haxe Roundup № 607" href="/roundups/607/">
+					<h1 itemprop="headline">Haxe Roundup № 607</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="606" itemscope>
+				<a title="Haxe Roundup № 606" href="/roundups/606/">
+					<h1 itemprop="headline">Haxe Roundup № 606</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="605" itemscope>
+				<a title="Haxe Roundup № 605" href="/roundups/605/">
+					<h1 itemprop="headline">Haxe Roundup № 605</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="604" itemscope>
+				<a title="Haxe Roundup № 604" href="/roundups/604/">
+					<h1 itemprop="headline">Haxe Roundup № 604</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="603" itemscope>
+				<a title="Haxe Roundup № 603" href="/roundups/603/">
+					<h1 itemprop="headline">Haxe Roundup № 603</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="602" itemscope>
+				<a title="Haxe Roundup № 602" href="/roundups/602/">
+					<h1 itemprop="headline">Haxe Roundup № 602</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="601" itemscope>
+				<a title="Haxe Roundup № 601" href="/roundups/601/">
+					<h1 itemprop="headline">Haxe Roundup № 601</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="600" itemscope>
+				<a title="Haxe Roundup № 600" href="/roundups/600/">
+					<h1 itemprop="headline">Haxe Roundup № 600</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="599" itemscope>
+				<a title="Haxe Roundup № 599" href="/roundups/599/">
+					<h1 itemprop="headline">Haxe Roundup № 599</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="598" itemscope>
+				<a title="Haxe Roundup № 598" href="/roundups/598/">
+					<h1 itemprop="headline">Haxe Roundup № 598</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="597" itemscope>
+				<a title="Haxe Roundup № 597" href="/roundups/597/">
+					<h1 itemprop="headline">Haxe Roundup № 597</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="596" itemscope>
+				<a title="Haxe Roundup № 596" href="/roundups/596/">
+					<h1 itemprop="headline">Haxe Roundup № 596</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="595" itemscope>
+				<a title="Haxe Roundup № 595" href="/roundups/595/">
+					<h1 itemprop="headline">Haxe Roundup № 595</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="594" itemscope>
+				<a title="Haxe Roundup № 594" href="/roundups/594/">
+					<h1 itemprop="headline">Haxe Roundup № 594</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="593" itemscope>
+				<a title="Haxe Roundup № 593" href="/roundups/593/">
+					<h1 itemprop="headline">Haxe Roundup № 593</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="592" itemscope>
+				<a title="Haxe Roundup № 592" href="/roundups/592/">
+					<h1 itemprop="headline">Haxe Roundup № 592</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="591" itemscope>
+				<a title="Haxe Roundup № 591" href="/roundups/591/">
+					<h1 itemprop="headline">Haxe Roundup № 591</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="590" itemscope>
+				<a title="Haxe Roundup № 590" href="/roundups/590/">
+					<h1 itemprop="headline">Haxe Roundup № 590</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="589" itemscope>
+				<a title="Haxe Roundup № 589" href="/roundups/589/">
+					<h1 itemprop="headline">Haxe Roundup № 589</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="588" itemscope>
+				<a title="Haxe Roundup № 588" href="/roundups/588/">
+					<h1 itemprop="headline">Haxe Roundup № 588</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="587" itemscope>
+				<a title="Haxe Roundup № 587" href="/roundups/587/">
+					<h1 itemprop="headline">Haxe Roundup № 587</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="586" itemscope>
+				<a title="Haxe Roundup № 586" href="/roundups/586/">
+					<h1 itemprop="headline">Haxe Roundup № 586</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="585" itemscope>
+				<a title="Haxe Roundup № 585" href="/roundups/585/">
+					<h1 itemprop="headline">Haxe Roundup № 585</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="584" itemscope>
+				<a title="Haxe Roundup № 584" href="/roundups/584/">
+					<h1 itemprop="headline">Haxe Roundup № 584</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="583" itemscope>
+				<a title="Haxe Roundup № 583" href="/roundups/583/">
+					<h1 itemprop="headline">Haxe Roundup № 583</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="582" itemscope>
+				<a title="Haxe Roundup № 582" href="/roundups/582/">
+					<h1 itemprop="headline">Haxe Roundup № 582</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="581" itemscope>
+				<a title="Haxe Roundup № 581" href="/roundups/581/">
+					<h1 itemprop="headline">Haxe Roundup № 581</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="580" itemscope>
+				<a title="Haxe Roundup № 580" href="/roundups/580/">
+					<h1 itemprop="headline">Haxe Roundup № 580</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="579" itemscope>
+				<a title="Haxe Roundup № 579" href="/roundups/579/">
+					<h1 itemprop="headline">Haxe Roundup № 579</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="578" itemscope>
+				<a title="Haxe Roundup № 578" href="/roundups/578/">
+					<h1 itemprop="headline">Haxe Roundup № 578</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="577" itemscope>
+				<a title="Haxe Roundup № 577" href="/roundups/577/">
+					<h1 itemprop="headline">Haxe Roundup № 577</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="576" itemscope>
+				<a title="Haxe Roundup № 576" href="/roundups/576/">
+					<h1 itemprop="headline">Haxe Roundup № 576</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="575" itemscope>
+				<a title="Haxe Roundup № 575" href="/roundups/575/">
+					<h1 itemprop="headline">Haxe Roundup № 575</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="574" itemscope>
+				<a title="Haxe Roundup № 574" href="/roundups/574/">
+					<h1 itemprop="headline">Haxe Roundup № 574</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="573" itemscope>
+				<a title="Haxe Roundup № 573" href="/roundups/573/">
+					<h1 itemprop="headline">Haxe Roundup № 573</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="572" itemscope>
+				<a title="Haxe Roundup № 572" href="/roundups/572/">
+					<h1 itemprop="headline">Haxe Roundup № 572</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="571" itemscope>
+				<a title="Haxe Roundup № 571" href="/roundups/571/">
+					<h1 itemprop="headline">Haxe Roundup № 571</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="570" itemscope>
+				<a title="Haxe Roundup № 570" href="/roundups/570/">
+					<h1 itemprop="headline">Haxe Roundup № 570</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r569" itemscope>
+				<a title="Haxe Roundup № 569" href="/roundups/569/">
+					<h1 itemprop="headline">Haxe Roundup № 569</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r568" itemscope>
+				<a title="Haxe Roundup № 568" href="/roundups/568/">
+					<h1 itemprop="headline">Haxe Roundup № 568</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r567" itemscope>
+				<a title="Haxe Roundup № 567" href="/roundups/567/">
+					<h1 itemprop="headline">Haxe Roundup № 567</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r566" itemscope>
+				<a title="Haxe Roundup № 566" href="/roundups/566/">
+					<h1 itemprop="headline">Haxe Roundup № 566</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r565" itemscope>
+				<a title="Haxe Roundup № 565" href="/roundups/565/">
+					<h1 itemprop="headline">Haxe Roundup № 565</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r564" itemscope>
+				<a title="Haxe Roundup № 564" href="/roundups/564/">
+					<h1 itemprop="headline">Haxe Roundup № 564</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r563" itemscope>
+				<a title="Haxe Roundup № 563" href="/roundups/563/">
+					<h1 itemprop="headline">Haxe Roundup № 563</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r562" itemscope>
+				<a title="Haxe Roundup № 562" href="/roundups/562/">
+					<h1 itemprop="headline">Haxe Roundup № 562</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r561" itemscope>
+				<a title="Haxe Roundup № 561" href="/roundups/561/">
+					<h1 itemprop="headline">Haxe Roundup № 561</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r560" itemscope>
+				<a title="Haxe Roundup № 560" href="/roundups/560/">
+					<h1 itemprop="headline">Haxe Roundup № 560</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r559" itemscope>
+				<a title="Haxe Roundup № 559" href="/roundups/559/">
+					<h1 itemprop="headline">Haxe Roundup № 559</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r558" itemscope>
+				<a title="Haxe Roundup № 558" href="/roundups/558/">
+					<h1 itemprop="headline">Haxe Roundup № 558</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r557" itemscope>
+				<a title="Haxe Roundup № 557" href="/roundups/557/">
+					<h1 itemprop="headline">Haxe Roundup № 557</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r556" itemscope>
+				<a title="Haxe Roundup № 556" href="/roundups/556/">
+					<h1 itemprop="headline">Haxe Roundup № 556</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r555" itemscope>
+				<a title="Haxe Roundup № 555" href="/roundups/555/">
+					<h1 itemprop="headline">Haxe Roundup № 555</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r554" itemscope>
+				<a title="Haxe Roundup № 554" href="/roundups/554/">
+					<h1 itemprop="headline">Haxe Roundup № 554</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r553" itemscope>
+				<a title="Haxe Roundup № 553" href="/roundups/553/">
+					<h1 itemprop="headline">Haxe Roundup № 553</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r552" itemscope>
+				<a title="Haxe Roundup № 552" href="/roundups/552/">
+					<h1 itemprop="headline">Haxe Roundup № 552</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r551" itemscope>
+				<a title="Haxe Roundup № 551" href="/roundups/551/">
+					<h1 itemprop="headline">Haxe Roundup № 551</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r550" itemscope>
+				<a title="Haxe Roundup № 550" href="/roundups/550/">
+					<h1 itemprop="headline">Haxe Roundup № 550</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r549" itemscope>
+				<a title="Haxe Roundup № 549" href="/roundups/549/">
+					<h1 itemprop="headline">Haxe Roundup № 549</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r548" itemscope>
+				<a title="Haxe Roundup № 548" href="/roundups/548/">
+					<h1 itemprop="headline">Haxe Roundup № 548</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r547" itemscope>
+				<a title="Haxe Roundup № 547" href="/roundups/547/">
+					<h1 itemprop="headline">Haxe Roundup № 547</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r546" itemscope>
+				<a title="Haxe Roundup № 546" href="/roundups/546/">
+					<h1 itemprop="headline">Haxe Roundup № 546</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r545" itemscope>
+				<a title="Haxe Roundup № 545" href="/roundups/545/">
+					<h1 itemprop="headline">Haxe Roundup № 545</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r544" itemscope>
+				<a title="Haxe Roundup № 544" href="/roundups/544/">
+					<h1 itemprop="headline">Haxe Roundup № 544</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r543" itemscope>
+				<a title="Haxe Roundup № 543" href="/roundups/543/">
+					<h1 itemprop="headline">Haxe Roundup № 543</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r542" itemscope>
+				<a title="Haxe Roundup № 542" href="/roundups/542/">
+					<h1 itemprop="headline">Haxe Roundup № 542</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r541" itemscope>
+				<a title="Haxe Roundup № 541" href="/roundups/541/">
+					<h1 itemprop="headline">Haxe Roundup № 541</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r540" itemscope>
+				<a title="Haxe Roundup № 540" href="/roundups/540/">
+					<h1 itemprop="headline">Haxe Roundup № 540</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r539" itemscope>
+				<a title="Haxe Roundup № 539" href="/roundups/539/">
+					<h1 itemprop="headline">Haxe Roundup № 539</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r538" itemscope>
+				<a title="Haxe Roundup № 538" href="/roundups/538/">
+					<h1 itemprop="headline">Haxe Roundup № 538</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r537" itemscope>
+				<a title="Haxe Roundup № 537" href="/roundups/537/">
+					<h1 itemprop="headline">Haxe Roundup № 537</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r536" itemscope>
+				<a title="Haxe Roundup № 536" href="/roundups/536/">
+					<h1 itemprop="headline">Haxe Roundup № 536</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r535" itemscope>
+				<a title="Haxe Roundup № 535" href="/roundups/535/">
+					<h1 itemprop="headline">Haxe Roundup № 535</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r534" itemscope>
+				<a title="Haxe Roundup № 534" href="/roundups/534/">
+					<h1 itemprop="headline">Haxe Roundup № 534</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r533" itemscope>
+				<a title="Haxe Roundup № 533" href="/roundups/533/">
+					<h1 itemprop="headline">Haxe Roundup № 533</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r532" itemscope>
+				<a title="Haxe Roundup № 532" href="/roundups/532/">
+					<h1 itemprop="headline">Haxe Roundup № 532</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r531" itemscope>
+				<a title="Haxe Roundup № 531" href="/roundups/531/">
+					<h1 itemprop="headline">Haxe Roundup № 531</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r530" itemscope>
+				<a title="Haxe Roundup № 530" href="/roundups/530/">
+					<h1 itemprop="headline">Haxe Roundup № 530</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r529" itemscope>
+				<a title="Haxe Roundup № 529" href="/roundups/529/">
+					<h1 itemprop="headline">Haxe Roundup № 529</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r528" itemscope>
+				<a title="Haxe Roundup № 528" href="/roundups/528/">
+					<h1 itemprop="headline">Haxe Roundup № 528</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r527" itemscope>
+				<a title="Haxe Roundup № 527" href="/roundups/527/">
+					<h1 itemprop="headline">Haxe Roundup № 527</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r526" itemscope>
+				<a title="Haxe Roundup № 526" href="/roundups/526/">
+					<h1 itemprop="headline">Haxe Roundup № 526</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r525" itemscope>
+				<a title="Haxe Roundup № 525" href="/roundups/525/">
+					<h1 itemprop="headline">Haxe Roundup № 525</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r524" itemscope>
+				<a title="Haxe Roundup № 524" href="/roundups/524/">
+					<h1 itemprop="headline">Haxe Roundup № 524</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r523" itemscope>
+				<a title="Haxe Roundup № 523" href="/roundups/523/">
+					<h1 itemprop="headline">Haxe Roundup № 523</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r522" itemscope>
+				<a title="Haxe Roundup № 522" href="/roundups/522/">
+					<h1 itemprop="headline">Haxe Roundup № 522</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r521" itemscope>
+				<a title="Haxe Roundup № 521" href="/roundups/521/">
+					<h1 itemprop="headline">Haxe Roundup № 521</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r520" itemscope>
+				<a title="Haxe Roundup № 520" href="/roundups/520/">
+					<h1 itemprop="headline">Haxe Roundup № 520</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r519" itemscope>
+				<a title="Haxe Roundup № 519" href="/roundups/519/">
+					<h1 itemprop="headline">Haxe Roundup № 519</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r518" itemscope>
+				<a title="Haxe Roundup № 518" href="/roundups/518/">
+					<h1 itemprop="headline">Haxe Roundup № 518</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r517" itemscope>
+				<a title="Haxe Roundup № 517" href="/roundups/517/">
+					<h1 itemprop="headline">Haxe Roundup № 517</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r516" itemscope>
+				<a title="Haxe Roundup № 516" href="/roundups/516/">
+					<h1 itemprop="headline">Haxe Roundup № 516</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r515" itemscope>
+				<a title="Haxe Roundup № 515" href="/roundups/515/">
+					<h1 itemprop="headline">Haxe Roundup № 515</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r514" itemscope>
+				<a title="Haxe Roundup № 514" href="/roundups/514/">
+					<h1 itemprop="headline">Haxe Roundup № 514</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r513" itemscope>
+				<a title="Haxe Roundup № 513" href="/roundups/513/">
+					<h1 itemprop="headline">Haxe Roundup № 513</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r512" itemscope>
+				<a title="Haxe Roundup № 512" href="/roundups/512/">
+					<h1 itemprop="headline">Haxe Roundup № 512</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r511" itemscope>
+				<a title="Haxe Roundup № 511" href="/roundups/511/">
+					<h1 itemprop="headline">Haxe Roundup № 511</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r510" itemscope>
+				<a title="Haxe Roundup № 510" href="/roundups/510/">
+					<h1 itemprop="headline">Haxe Roundup № 510</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r509" itemscope>
+				<a title="Haxe Roundup № 509" href="/roundups/509/">
+					<h1 itemprop="headline">Haxe Roundup № 509</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r508" itemscope>
+				<a title="Haxe Roundup № 508" href="/roundups/508/">
+					<h1 itemprop="headline">Haxe Roundup № 508</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r507" itemscope>
+				<a title="Haxe Roundup № 507" href="/roundups/507/">
+					<h1 itemprop="headline">Haxe Roundup № 507</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r506" itemscope>
+				<a title="Haxe Roundup № 506" href="/roundups/506/">
+					<h1 itemprop="headline">Haxe Roundup № 506</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r505" itemscope>
+				<a title="Haxe Roundup № 505" href="/roundups/505/">
+					<h1 itemprop="headline">Haxe Roundup № 505</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r504" itemscope>
+				<a title="Haxe Roundup № 504" href="/roundups/504/">
+					<h1 itemprop="headline">Haxe Roundup № 504</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r503" itemscope>
+				<a title="Haxe Roundup № 503" href="/roundups/503/">
+					<h1 itemprop="headline">Haxe Roundup № 503</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r502" itemscope>
+				<a title="Haxe Roundup № 502" href="/roundups/502/">
+					<h1 itemprop="headline">Haxe Roundup № 502</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r501" itemscope>
+				<a title="Haxe Roundup № 501" href="/roundups/501/">
+					<h1 itemprop="headline">Haxe Roundup № 501</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r500" itemscope>
+				<a title="Haxe Roundup № 500" href="/roundups/500/">
+					<h1 itemprop="headline">Haxe Roundup № 500</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r499" itemscope>
+				<a title="Haxe Roundup № 499" href="/roundups/499/">
+					<h1 itemprop="headline">Haxe Roundup № 499</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r498" itemscope>
+				<a title="Haxe Roundup № 498" href="/roundups/498/">
+					<h1 itemprop="headline">Haxe Roundup № 498</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r497" itemscope>
+				<a title="Haxe Roundup № 497" href="/roundups/497/">
+					<h1 itemprop="headline">Haxe Roundup № 497</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r496" itemscope>
+				<a title="Haxe Roundup № 496" href="/roundups/496/">
+					<h1 itemprop="headline">Haxe Roundup № 496</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r495" itemscope>
+				<a title="Haxe Roundup № 495" href="/roundups/495/">
+					<h1 itemprop="headline">Haxe Roundup № 495</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r494" itemscope>
+				<a title="Haxe Roundup № 494" href="/roundups/494/">
+					<h1 itemprop="headline">Haxe Roundup № 494</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r493" itemscope>
+				<a title="Haxe Roundup № 493" href="/roundups/493/">
+					<h1 itemprop="headline">Haxe Roundup № 493</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r492" itemscope>
+				<a title="Haxe Roundup № 492" href="/roundups/492/">
+					<h1 itemprop="headline">Haxe Roundup № 492</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r491" itemscope>
+				<a title="Haxe Roundup № 491" href="/roundups/491/">
+					<h1 itemprop="headline">Haxe Roundup № 491</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r490" itemscope>
+				<a title="Haxe Roundup № 490" href="/roundups/490/">
+					<h1 itemprop="headline">Haxe Roundup № 490</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r489" itemscope>
+				<a title="Haxe Roundup № 489" href="/roundups/489/">
+					<h1 itemprop="headline">Haxe Roundup № 489</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r488" itemscope>
+				<a title="Haxe Roundup № 488" href="/roundups/488/">
+					<h1 itemprop="headline">Haxe Roundup № 488</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r487" itemscope>
+				<a title="Haxe Roundup № 487" href="/roundups/487/">
+					<h1 itemprop="headline">Haxe Roundup № 487</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r486" itemscope>
+				<a title="Haxe Roundup № 486" href="/roundups/486/">
+					<h1 itemprop="headline">Haxe Roundup № 486</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r485" itemscope>
+				<a title="Haxe Roundup № 485" href="/roundups/485/">
+					<h1 itemprop="headline">Haxe Roundup № 485</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r484" itemscope>
+				<a title="Haxe Roundup № 484" href="/roundups/484/">
+					<h1 itemprop="headline">Haxe Roundup № 484</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r483" itemscope>
+				<a title="Haxe Roundup № 483" href="/roundups/483/">
+					<h1 itemprop="headline">Haxe Roundup № 483</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r482" itemscope>
+				<a title="Haxe Roundup № 482" href="/roundups/482/">
+					<h1 itemprop="headline">Haxe Roundup № 482</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r481" itemscope>
+				<a title="Haxe Roundup № 481" href="/roundups/481/">
+					<h1 itemprop="headline">Haxe Roundup № 481</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r480" itemscope>
+				<a title="Haxe Roundup № 480" href="/roundups/480/">
+					<h1 itemprop="headline">Haxe Roundup № 480</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r479" itemscope>
+				<a title="Haxe Roundup № 479" href="/roundups/479/">
+					<h1 itemprop="headline">Haxe Roundup № 479</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r478" itemscope>
+				<a title="Haxe Roundup № 478" href="/roundups/478/">
+					<h1 itemprop="headline">Haxe Roundup № 478</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r477" itemscope>
+				<a title="Haxe Roundup № 477" href="/roundups/477/">
+					<h1 itemprop="headline">Haxe Roundup № 477</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r476" itemscope>
+				<a title="Haxe Roundup № 476" href="/roundups/476/">
+					<h1 itemprop="headline">Haxe Roundup № 476</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r475" itemscope>
+				<a title="Haxe Roundup № 475" href="/roundups/475/">
+					<h1 itemprop="headline">Haxe Roundup № 475</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r474" itemscope>
+				<a title="Haxe Roundup № 474" href="/roundups/474/">
+					<h1 itemprop="headline">Haxe Roundup № 474</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r473" itemscope>
+				<a title="Haxe Roundup № 473" href="/roundups/473/">
+					<h1 itemprop="headline">Haxe Roundup № 473</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r472" itemscope>
+				<a title="Haxe Roundup № 472" href="/roundups/472/">
+					<h1 itemprop="headline">Haxe Roundup № 472</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r471" itemscope>
+				<a title="Haxe Roundup № 471" href="/roundups/471/">
+					<h1 itemprop="headline">Haxe Roundup № 471</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r470" itemscope>
+				<a title="Haxe Roundup № 470" href="/roundups/470/">
+					<h1 itemprop="headline">Haxe Roundup № 470</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r469" itemscope>
+				<a title="Haxe Roundup № 469" href="/roundups/469/">
+					<h1 itemprop="headline">Haxe Roundup № 469</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r468" itemscope>
+				<a title="Haxe Roundup № 468" href="/roundups/468/">
+					<h1 itemprop="headline">Haxe Roundup № 468</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r467" itemscope>
+				<a title="Haxe Roundup № 467" href="/roundups/467/">
+					<h1 itemprop="headline">Haxe Roundup № 467</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r466" itemscope>
+				<a title="Haxe Roundup № 466" href="/roundups/466/">
+					<h1 itemprop="headline">Haxe Roundup № 466</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r465" itemscope>
+				<a title="Haxe Roundup № 465" href="/roundups/465/">
+					<h1 itemprop="headline">Haxe Roundup № 465</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r464" itemscope>
+				<a title="Haxe Roundup № 464" href="/roundups/464/">
+					<h1 itemprop="headline">Haxe Roundup № 464</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r463" itemscope>
+				<a title="Haxe Roundup № 463" href="/roundups/463/">
+					<h1 itemprop="headline">Haxe Roundup № 463</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r462" itemscope>
+				<a title="Haxe Roundup № 462" href="/roundups/462/">
+					<h1 itemprop="headline">Haxe Roundup № 462</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r461" itemscope>
+				<a title="Haxe Roundup № 461" href="/roundups/461/">
+					<h1 itemprop="headline">Haxe Roundup № 461</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r460" itemscope>
+				<a title="Haxe Roundup № 460" href="/roundups/460/">
+					<h1 itemprop="headline">Haxe Roundup № 460</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r459" itemscope>
+				<a title="Haxe Roundup № 459" href="/roundups/459/">
+					<h1 itemprop="headline">Haxe Roundup № 459</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r458" itemscope>
+				<a title="Haxe Roundup № 458" href="/roundups/458/">
+					<h1 itemprop="headline">Haxe Roundup № 458</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r457" itemscope>
+				<a title="Haxe Roundup № 457" href="/roundups/457/">
+					<h1 itemprop="headline">Haxe Roundup № 457</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r456" itemscope>
+				<a title="Haxe Roundup № 456" href="/roundups/456/">
+					<h1 itemprop="headline">Haxe Roundup № 456</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r455" itemscope>
+				<a title="Haxe Roundup № 455" href="/roundups/455/">
+					<h1 itemprop="headline">Haxe Roundup № 455</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r454" itemscope>
+				<a title="Haxe Roundup № 454" href="/roundups/454/">
+					<h1 itemprop="headline">Haxe Roundup № 454</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r453" itemscope>
+				<a title="Haxe Roundup № 453" href="/roundups/453/">
+					<h1 itemprop="headline">Haxe Roundup № 453</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r452" itemscope>
+				<a title="Haxe Roundup № 452" href="/roundups/452/">
+					<h1 itemprop="headline">Haxe Roundup № 452</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r451" itemscope>
+				<a title="Haxe Roundup № 451" href="/roundups/451/">
+					<h1 itemprop="headline">Haxe Roundup № 451</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r450" itemscope>
+				<a title="Haxe Roundup № 450" href="/roundups/450/">
+					<h1 itemprop="headline">Haxe Roundup № 450</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r449" itemscope>
+				<a title="Haxe Roundup № 449" href="/roundups/449/">
+					<h1 itemprop="headline">Haxe Roundup № 449</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r448" itemscope>
+				<a title="Haxe Roundup № 448" href="/roundups/448/">
+					<h1 itemprop="headline">Haxe Roundup № 448</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r447" itemscope>
+				<a title="Haxe Roundup № 447" href="/roundups/447/">
+					<h1 itemprop="headline">Haxe Roundup № 447</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r446" itemscope>
+				<a title="Haxe Roundup № 446" href="/roundups/446/">
+					<h1 itemprop="headline">Haxe Roundup № 446</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r445" itemscope>
+				<a title="Haxe Roundup № 445" href="/roundups/445/">
+					<h1 itemprop="headline">Haxe Roundup № 445</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r444" itemscope>
+				<a title="Haxe Roundup № 444" href="/roundups/444/">
+					<h1 itemprop="headline">Haxe Roundup № 444</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r443" itemscope>
+				<a title="Haxe Roundup № 443" href="/roundups/443/">
+					<h1 itemprop="headline">Haxe Roundup № 443</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r442" itemscope>
+				<a title="Haxe Roundup № 442" href="/roundups/442/">
+					<h1 itemprop="headline">Haxe Roundup № 442</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r441" itemscope>
+				<a title="Haxe Roundup № 441" href="/roundups/441/">
+					<h1 itemprop="headline">Haxe Roundup № 441</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r440" itemscope>
+				<a title="Haxe Roundup № 440" href="/roundups/440/">
+					<h1 itemprop="headline">Haxe Roundup № 440</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r439" itemscope>
+				<a title="Haxe Roundup № 439" href="/roundups/439/">
+					<h1 itemprop="headline">Haxe Roundup № 439</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r438" itemscope>
+				<a title="Haxe Roundup № 438" href="/roundups/438/">
+					<h1 itemprop="headline">Haxe Roundup № 438</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r437" itemscope>
+				<a title="Haxe Roundup № 437" href="/roundups/437/">
+					<h1 itemprop="headline">Haxe Roundup № 437</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r436" itemscope>
+				<a title="Haxe Roundup № 436" href="/roundups/436/">
+					<h1 itemprop="headline">Haxe Roundup № 436</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r435" itemscope>
+				<a title="Haxe Roundup № 435" href="/roundups/435/">
+					<h1 itemprop="headline">Haxe Roundup № 435</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r434" itemscope>
+				<a title="Haxe Roundup № 434" href="/roundups/434/">
+					<h1 itemprop="headline">Haxe Roundup № 434</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r433" itemscope>
+				<a title="Haxe Roundup № 433" href="/roundups/433/">
+					<h1 itemprop="headline">Haxe Roundup № 433</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r432" itemscope>
+				<a title="Haxe Roundup № 432" href="/roundups/432/">
+					<h1 itemprop="headline">Haxe Roundup № 432</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r431" itemscope>
+				<a title="Haxe Roundup № 431" href="/roundups/431/">
+					<h1 itemprop="headline">Haxe Roundup № 431</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r430" itemscope>
+				<a title="Haxe Roundup № 430" href="/roundups/430/">
+					<h1 itemprop="headline">Haxe Roundup № 430</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r429" itemscope>
+				<a title="Haxe Roundup № 429" href="/roundups/429/">
+					<h1 itemprop="headline">Haxe Roundup № 429</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r428" itemscope>
+				<a title="Haxe Roundup № 428" href="/roundups/428/">
+					<h1 itemprop="headline">Haxe Roundup № 428</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r427" itemscope>
+				<a title="Haxe Roundup № 427" href="/roundups/427/">
+					<h1 itemprop="headline">Haxe Roundup № 427</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r426" itemscope>
+				<a title="Haxe Roundup № 426" href="/roundups/426/">
+					<h1 itemprop="headline">Haxe Roundup № 426</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r425" itemscope>
+				<a title="Haxe Roundup № 425" href="/roundups/425/">
+					<h1 itemprop="headline">Haxe Roundup № 425</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r424" itemscope>
+				<a title="Haxe Roundup № 424" href="/roundups/424/">
+					<h1 itemprop="headline">Haxe Roundup № 424</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r423" itemscope>
+				<a title="Haxe Roundup № 423" href="/roundups/423/">
+					<h1 itemprop="headline">Haxe Roundup № 423</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r422" itemscope>
+				<a title="Haxe Roundup № 422" href="/roundups/422/">
+					<h1 itemprop="headline">Haxe Roundup № 422</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r421" itemscope>
+				<a title="Haxe Roundup № 421" href="/roundups/421/">
+					<h1 itemprop="headline">Haxe Roundup № 421</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r420" itemscope>
+				<a title="Haxe Roundup № 420" href="/roundups/420/">
+					<h1 itemprop="headline">Haxe Roundup № 420</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r419" itemscope>
+				<a title="Haxe Roundup № 419" href="/roundups/419/">
+					<h1 itemprop="headline">Haxe Roundup № 419</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r418" itemscope>
+				<a title="Haxe Roundup № 418" href="/roundups/418/">
+					<h1 itemprop="headline">Haxe Roundup № 418</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r417" itemscope>
+				<a title="Haxe Roundup № 417" href="/roundups/417/">
+					<h1 itemprop="headline">Haxe Roundup № 417</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r416" itemscope>
+				<a title="Haxe Roundup № 416" href="/roundups/416/">
+					<h1 itemprop="headline">Haxe Roundup № 416</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r415" itemscope>
+				<a title="Haxe Roundup № 415" href="/roundups/415/">
+					<h1 itemprop="headline">Haxe Roundup № 415</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r414" itemscope>
+				<a title="Haxe Roundup № 414" href="/roundups/414/">
+					<h1 itemprop="headline">Haxe Roundup № 414</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r413" itemscope>
+				<a title="Haxe Roundup № 413" href="/roundups/413/">
+					<h1 itemprop="headline">Haxe Roundup № 413</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r412" itemscope>
+				<a title="Haxe Roundup № 412" href="/roundups/412/">
+					<h1 itemprop="headline">Haxe Roundup № 412</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r411" itemscope>
+				<a title="Haxe Roundup № 411" href="/roundups/411/">
+					<h1 itemprop="headline">Haxe Roundup № 411</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r410" itemscope>
+				<a title="Haxe Roundup № 410" href="/roundups/410/">
+					<h1 itemprop="headline">Haxe Roundup № 410</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r409" itemscope>
+				<a title="Haxe Roundup № 409" href="/roundups/409/">
+					<h1 itemprop="headline">Haxe Roundup № 409</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r408" itemscope>
+				<a title="Haxe Roundup № 408" href="/roundups/408/">
+					<h1 itemprop="headline">Haxe Roundup № 408</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r407" itemscope>
+				<a title="Haxe Roundup № 407" href="/roundups/407/">
+					<h1 itemprop="headline">Haxe Roundup № 407</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r406" itemscope>
+				<a title="Haxe Roundup № 406" href="/roundups/406/">
+					<h1 itemprop="headline">Haxe Roundup № 406</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r405" itemscope>
+				<a title="Haxe Roundup № 405" href="/roundups/405/">
+					<h1 itemprop="headline">Haxe Roundup № 405</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r404" itemscope>
+				<a title="Haxe Roundup № 404" href="/roundups/404/">
+					<h1 itemprop="headline">Haxe Roundup № 404</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r403" itemscope>
+				<a title="Haxe Roundup № 403" href="/roundups/403/">
+					<h1 itemprop="headline">Haxe Roundup № 403</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r402" itemscope>
+				<a title="Haxe Roundup № 402" href="/roundups/402/">
+					<h1 itemprop="headline">Haxe Roundup № 402</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r401" itemscope>
+				<a title="Haxe Roundup № 401" href="/roundups/401/">
+					<h1 itemprop="headline">Haxe Roundup № 401</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r400" itemscope>
+				<a title="Haxe Roundup № 400" href="/roundups/400/">
+					<h1 itemprop="headline">Haxe Roundup № 400</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r399" itemscope>
+				<a title="Haxe Roundup № 399" href="/roundups/399/">
+					<h1 itemprop="headline">Haxe Roundup № 399</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r398" itemscope>
+				<a title="Haxe Roundup № 398" href="/roundups/398/">
+					<h1 itemprop="headline">Haxe Roundup № 398</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r397" itemscope>
+				<a title="Haxe Roundup № 397" href="/roundups/397/">
+					<h1 itemprop="headline">Haxe Roundup № 397</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r396" itemscope>
+				<a title="Haxe Roundup № 396" href="/roundups/396/">
+					<h1 itemprop="headline">Haxe Roundup № 396</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r395" itemscope>
+					<a title="Haxe Roundup № 395" href="/roundups/395/">
+						<h1 itemprop="headline">Haxe Roundup № 395</h1>
+					</a>
+					<time datecreated="$date" pubdate="" datetime="$date"></time>
+				</li>
+			<li itemtype="http://schema.org/Article" id="r394" itemscope>
+					<a title="Haxe Roundup № 394" href="/roundups/394/">
+						<h1 itemprop="headline">Haxe Roundup № 394</h1>
+					</a>
+					<time datecreated="$date" pubdate="" datetime="$date"></time>
+				</li>
+			<li itemtype="http://schema.org/Article" id="r393" itemscope>
+					<a title="Haxe Roundup № 393" href="/roundups/393/">
+						<h1 itemprop="headline">Haxe Roundup № 393</h1>
+					</a>
+					<time datecreated="$date" pubdate="" datetime="$date"></time>
+				</li>
+			<li itemtype="http://schema.org/Article" id="r392" itemscope>
+				<a title="Haxe Roundup № 392" href="/roundups/392/">
+					<h1 itemprop="headline">Haxe Roundup № 392</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r391" itemscope>
+				<a title="Haxe Roundup № 391" href="/roundups/391/">
+					<h1 itemprop="headline">Haxe Roundup № 391</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r390" itemscope>
+				<a title="Haxe Roundup № 390" href="/roundups/390/">
+					<h1 itemprop="headline">Haxe Roundup № 390</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r389" itemscope>
+				<a title="Haxe Roundup № 389" href="/roundups/389/">
+					<h1 itemprop="headline">Haxe Roundup № 389</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="event--link" itemscope>
+				<a title="Upcoming Event: HaxeFlixel for HTML5 and Shapes in Haxe - 6th July" href="https://www.meetup.com/London-Haxe-Meetup/events/240816072/?utm_source=haxe.io">
+					<h1 itemprop="headline">HaxeFlixel for HTML5 & Shapes in Haxe - 6th July</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r388" itemscope>
+				<a title="Haxe Roundup № 388" href="/roundups/388/">
+					<h1 itemprop="headline">Haxe Roundup № 388</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r387" itemscope>
+				<a title="Haxe Roundup № 387" href="/roundups/387/">
+					<h1 itemprop="headline">Haxe Roundup № 387</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r386" itemscope>
+				<a title="Haxe Roundup № 386" href="/roundups/386/">
+					<h1 itemprop="headline">Haxe Roundup № 386</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r385" itemscope>
+				<a title="Haxe Roundup № 385" href="/roundups/385/">
+					<h1 itemprop="headline">Haxe Roundup № 385</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r384" itemscope>
+				<a title="Haxe Roundup № 384" href="/roundups/384/">
+					<h1 itemprop="headline">Haxe Roundup № 384</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r383" itemscope>
+				<a title="Haxe Roundup № 383" href="/roundups/383/">
+					<h1 itemprop="headline">Haxe Roundup № 383</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r382" itemscope>
+				<a title="Haxe Roundup № 382" href="/roundups/382/">
+					<h1 itemprop="headline">Haxe Roundup № 382</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r381" itemscope>
+				<a title="Haxe Roundup № 381" href="/roundups/381/">
+					<h1 itemprop="headline">Haxe Roundup № 381</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r380" itemscope>
+				<a title="Haxe Roundup № 380" href="/roundups/380/">
+					<h1 itemprop="headline">Haxe Roundup № 380</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r379" itemscope>
+				<a title="Haxe Roundup № 379" href="/roundups/379/">
+					<h1 itemprop="headline">Haxe Roundup № 379</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r378" itemscope>
+				<a title="Haxe Roundup № 378" href="/roundups/378/">
+					<h1 itemprop="headline">Haxe Roundup № 378</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r377" itemscope>
+				<a title="Haxe Roundup № 377" href="/roundups/377/">
+					<h1 itemprop="headline">Haxe Roundup № 377</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r376" itemscope>
+				<a title="Haxe Roundup № 376" href="/roundups/376/">
+					<h1 itemprop="headline">Haxe Roundup № 376</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r375" itemscope>
+				<a title="Haxe Roundup № 375" href="/roundups/375/">
+					<h1 itemprop="headline">Haxe Roundup № 375</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r374" itemscope>
+				<a title="Haxe Roundup № 374" href="/roundups/374/">
+					<h1 itemprop="headline">Haxe Roundup № 374</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld37" itemscope>
+				<a title="Haxe Roundup № 373" href="/ld/37/">
+					<h1 itemprop="headline">The Haxe Ludum Dare 37 Roundup</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r373" itemscope>
+				<a title="Haxe Roundup № 373" href="/roundups/373/">
+					<h1 itemprop="headline">Haxe Roundup № 373</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Making cool stuff with Haxe macros" href="https://runvs.io/News/910?utm_source=haxe.io">
+					<h1 itemprop="headline">Making cool stuff with Haxe macros</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r372" itemscope>
+				<a title="Haxe Roundup № 372" href="/roundups/372/">
+					<h1 itemprop="headline">Haxe Roundup № 372</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="event--link" itemscope>
+				<a title="Upcoming Event: Capitole du Libre - 19th & 20th Novemeber" href="https://2016.capitoledulibre.org/?utm_source=haxe.io">
+					<h1 itemprop="headline">Capitole du Libre - 19th & 20th Novemeber</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r371" itemscope>
+				<a title="Haxe Roundup № 371" href="/roundups/371/">
+					<h1 itemprop="headline">Haxe Roundup № 371</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="event--link" itemscope>
+				<a title="Upcoming Event: London Haxe Meetup - 20th October" href="https://www.meetup.com/London-Haxe-Meetup/?utm_source=haxe.io">
+					<h1 itemprop="headline">London Haxe Meetup - 20th October</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r370" itemscope>
+				<a title="Haxe Roundup № 370" href="/roundups/370/">
+					<h1 itemprop="headline">Haxe Roundup № 370</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld36" itemscope>
+				<a title="The Haxe Ludum Dare 36 Roundup" href="/ld/36/">
+					<h1 itemprop="headline">The Haxe Ludum Dare 36 Roundup</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="differ 1.3.0 release" href="https://snowkit.org/2016/09/19/differ-1-3-0-release/?utm_source=haxe.io">
+					<h1 itemprop="headline">differ 1.3.0 release</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link--video" itemscope>
+				<a title="Watch 5 minutes of Armory in action!" href="https://www.youtube.com/watch?v=j1riyJilvhs&utm_source=haxe.io">
+					<h1 itemprop="headline">Watch 5 minutes of Armory in action!</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="mínt alpha-3.0" href="https://snowkit.org/2016/09/06/mint-alpha-3-0/?utm_source=haxe.io">
+					<h1 itemprop="headline">mínt alpha-3.0</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Haxe Online Training Courses are Coming!" href="http://haxe.org/blog/haxe-online-training-courses-are-coming/?utm_source=haxe.io">
+					<h1 itemprop="headline">Haxe Online Training Courses are Coming!</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="OpenFL 4.1 and Lime 3.1 are Now Available" href="http://www.openfl.org/blog/2016/08/29/openfl-4-1-and-lime-3-1-are-now-available/?utm_source=haxe.io">
+					<h1 itemprop="headline">OpenFL 4.1 and Lime 3.1 are Now Available</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r369" itemscope>
+				<a title="Haxe Roundup № 369" href="/roundups/369/">
+					<h1 itemprop="headline">Haxe Roundup № 369</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="HaxeFlixel Fundraiser Success!" href="http://haxeflixel.com/blog/05-fundraiser/?utm_source=haxe.io">
+					<h1 itemprop="headline">HaxeFlixel Fundraiser Success!</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Haxe Evolution Process" href="http://haxe.org/blog/haxe-evolution-process?utm_source=haxe.io">
+					<h1 itemprop="headline">Introducing the Haxe Evolution Process</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="OpenFL Developer Spotlight - David Elahee" href="http://www.openfl.org/blog/2016/08/26/developer-spotlight-david-elahee/?utm_source=haxe.io">
+					<h1 itemprop="headline">OpenFL Developer Spotlight - David Elahee</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r368" itemscope>
+				<a title="Haxe Roundup № 368" href="/roundups/368/">
+					<h1 itemprop="headline">Haxe Roundup № 368</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Dox 1.1 released, our documentation tool" href="http://haxe.org/blog/haxe-api-documentation-tool?utm_source=haxe.io">
+					<h1 itemprop="headline">Dox 1.1 released, our documentation tool</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r367" itemscope>
+				<a title="Haxe Roundup № 367" href="/roundups/367/">
+					<h1 itemprop="headline">Haxe Roundup № 367</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Building 42 games within a year — Insane game development" href="https://medium.com/@mknol/building-42-games-within-a-year-insane-game-development-5340d506068f#.vorkz54f4?utm_source=haxe.io">
+					<h1 itemprop="headline">Building 42 games within a year — Insane game development</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="How We Paid Our Open Source Taxes" href="http://www.fortressofdoors.com/how-we-paid-our-open-source-taxes/?utm_source=haxe.io">
+					<h1 itemprop="headline">How We Paid Our Open Source Taxes</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Is Haxe for you?" href="https://nadako.github.io/rants/posts/2016-07-22_is-haxe-for-you.html?utm_source=haxe.io">
+					<h1 itemprop="headline">Is Haxe for you?</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r366" itemscope>
+				<a title="Haxe Roundup № 366" href="/roundups/366/">
+					<h1 itemprop="headline">Haxe Roundup № 366</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="My opinion on what Haxe should move towards" href="https://nadako.github.io/rants/posts/2016-06-21_haxe-next.html?utm_source=haxe.io">
+					<h1 itemprop="headline">My opinion on what Haxe should move towards</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r365" itemscope>
+				<a title="Haxe Roundup № 365" href="/roundups/365/">
+					<h1 itemprop="headline">Haxe Roundup № 365</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Game Developer Barbie uses Haxe" href="http://www.slate.com/articles/technology/future_tense/2016/06/mattel_s_game_developer_barbie_is_fantastic.html?utm_content=35353337&utm_medium=social&utm_source=haxe.io">
+					<h1 itemprop="headline">Game Developer Barbie uses Haxe!</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Polygonal DS 2.0-beta released" href="http://lab.polygonal.de/2016/05/30/ds-2-0-beta-released/?utm_source=haxe.io">
+					<h1 itemprop="headline">Polygonal DS 2.0-beta released</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="A Beginner's Guide to Hacking Haxe Macros" href="http://jcward.com/A+Beginners+Guide+To+Hacking+Haxe+Macros?utm_source=haxe.io">
+					<h1 itemprop="headline">A Beginner's Guide to Hacking Haxe Macros</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r364" itemscope>
+				<a title="Haxe Roundup № 364" href="/roundups/364/">
+					<h1 itemprop="headline">Haxe Roundup № 364</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="release330" itemscope>
+				<a title="What's New in Haxe 3.3.0?" href="/releases/3.3.0/">
+					<h1 itemprop="headline">What's New in Haxe 3.3.0?</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Heading back from the WWX" href="https://medium.com/@back2dos/heading-back-from-the-wwx-716bb5f3905d#.c37l3k9f1">
+					<h1 itemprop="headline">Heading back from the WWX</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_ian" itemscope>
+				<a title="Ian Harrigan WWX 2016 Interview" href="/wwx/2016/Ian-Harrigan/">
+					<h1 itemprop="headline">Ian Harrigan WWX 2016 Interview</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_dan" itemscope>
+				<a title="Dan Korostelev WWX 2016 Interview" href="/wwx/2016/Dan-Korostelev/">
+					<h1 itemprop="headline">Dan Korostelev WWX 2016 Interview</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_hugh" itemscope>
+				<a title="Hugh Sanderson WWX 2016 Interview" href="/wwx/2016/Hugh-Sanderson/">
+					<h1 itemprop="headline">Hugh Sanderson WWX 2016 Interview</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_maxim" itemscope>
+				<a title="Maxim Bekhterev WWX 2016 Interview" href="/wwx/2016/Maxim-Bekhterev/">
+					<h1 itemprop="headline">Maxim Bekhterev WWX 2016 Interview</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_justin" itemscope>
+				<a title="Justin Donaldson WWX 2016 Interview" href="/wwx/2016/Justin-Donaldson/">
+					<h1 itemprop="headline">Justin Donaldson WWX 2016 Interview</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="link" itemscope>
+				<a title="Hello Lua!" href="http://haxe.org/blog/hello-lua?utm_source=haxe.io">
+					<h1 itemprop="headline">Hello Lua!</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r303" style="background-position:center" itemscope>
+				<a title="Haxe Roundup № 363" href="/roundups/363/">
+					<h1 itemprop="headline">Haxe Roundup № 363</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="r221" style="background-position:center" itemscope>
+				<a title="Haxe Roundup № 362" href="/roundups/362/">
+					<h1 itemprop="headline">Haxe Roundup № 362</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r228" style="background-position:center" itemscope>
+				<a title="Haxe Roundup № 361" href="/roundups/361/">
+					<h1 itemprop="headline">Haxe Roundup № 361</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld35" style="background-position:center" itemscope>
+				<a title="The Haxe Ludum Dare 35 Roundup" href="/ld/35/">
+					<h1 itemprop="headline">The Haxe Ludum Dare 35 Roundup</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r228" style="background-position:center" itemscope>
+				<a title="Haxe Roundup № 360" href="/roundups/360/">
+					<h1 itemprop="headline">Haxe Roundup № 360</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r311" style="background-position:center" itemscope>
+				<a title="Haxe Roundup № 359" href="/roundups/359/">
+					<h1 itemprop="headline">Haxe Roundup № 359</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r319" style="background-position:center" itemscope>
+				<a title="Haxe Roundup № 358" href="/roundups/358/">
+					<h1 itemprop="headline">Haxe Roundup № 358</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r224" style="background-position:center" itemscope>
+				<a title="Haxe Roundup № 357" href="/roundups/357/">
+					<h1 itemprop="headline">Haxe Roundup № 357</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r303" itemscope>
+				<a title="Haxe Roundup № 356" href="/roundups/356/">
+					<h1 itemprop="headline">Haxe Roundup № 356</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r309" itemscope>
+				<a title="Haxe Roundup № 355" href="/roundups/355/">
+					<h1 itemprop="headline">Haxe Roundup № 355</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r317" itemscope>
+				<a title="Haxe Roundup № 354" href="/roundups/354/">
+					<h1 itemprop="headline">Haxe Roundup № 354</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r328" itemscope>
+				<a title="Haxe Roundup № 353" href="/roundups/353/">
+					<h1 itemprop="headline">Haxe Roundup № 353</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r324" itemscope>
+				<a title="Haxe Roundup № 352" href="/roundups/352/">
+					<h1 itemprop="headline">Haxe Roundup № 352</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r325" itemscope>
+				<a title="Haxe Roundup № 351" href="/roundups/351/">
+					<h1 itemprop="headline">Haxe Roundup № 351</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r318" itemscope>
+				<a title="Haxe Roundup № 350" href="/roundups/350/">
+					<h1 itemprop="headline">Haxe Roundup № 350</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r330" itemscope>
+				<a title="Haxe Roundup № 349" href="/roundups/349/">
+					<h1 itemprop="headline">Haxe Roundup № 349</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld34" itemscope>
+				<a title="The Haxe Ludum Dare 34 Roundup" href="/ld/34/">
+					<h1 itemprop="headline">The Haxe Ludum Dare 34 Roundup</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This is the sixth dedicated Ludum Dare roundup for Haxe. Ludum Dare 34 took place between December 11th and 14th and the chosen theme was tied between Two Button Controls and Growing.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r331" itemscope>
+				<a title="Haxe Roundup № 348" href="/roundups/348/">
+					<h1 itemprop="headline">Haxe Roundup № 348</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r332" itemscope>
+				<a title="Haxe Roundup № 347" href="/roundups/347/">
+					<h1 itemprop="headline">Haxe Roundup № 347</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r342" itemscope>
+				<a title="Haxe Roundup № 346" href="/roundups/346/">
+					<h1 itemprop="headline">Haxe Roundup № 346</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Franco’s thx.text library is an interesting library, adding the ability to pluralize or singularize almost any word. It also adds the Table class, which pretty prints your data via its toString method.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r337" itemscope>
+				<a title="Haxe Roundup № 345" href="/roundups/345/">
+					<h1 itemprop="headline">Haxe Roundup № 345</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p></p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r342" itemscope>
+				<a title="Haxe Roundup № 344" href="/roundups/344/">
+					<h1 itemprop="headline">Haxe Roundup № 344</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Philippe Elsass has tweeted that he has completed his current project at Massive Interactive, working on bringing a new YouView client to Sony Android TV’s.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r343" itemscope>
+				<a title="Haxe Roundup № 343" href="/roundups/343/">
+					<h1 itemprop="headline">Haxe Roundup № 343</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Ian Harrigan starts this week’s roundup off with a Developer Spotlight interview over on the OpenFL blog, talking about his himself and HaxeUI. Ian continues to tease us on Twitter with upcoming HaxeUI features, with the latest sneak peak of a “very preliminary proof of concept backend using waxe and wxWidgets”!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r342" itemscope>
+				<a title="Haxe Roundup № 342" href="/roundups/342/">
+					<h1 itemprop="headline">Haxe Roundup № 342</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Andy Li continues to make Haxe available to everyone on Linux distros, with his latest efforts getting Haxe onto Fedora and openSUSE, jump on over to his post Haxe RPM Packages for Fedora and openSUSE for more details.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r341" itemscope>
+				<a title="Haxe Roundup № 341" href="/roundups/341/">
+					<h1 itemprop="headline">Haxe Roundup № 341</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Darek Greenly at the beginning of the week released GrayScale dev log #3 in which Darek leads you through his luxe engine powered, GameBoy style game covering player input and visuals, with a little peek at the internals, some in-progress tools and more. Visually, it looks amazing.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r340" itemscope>
+				<a title="Haxe Roundup № 340" href="/roundups/340/">
+					<h1 itemprop="headline">Haxe Roundup № 340</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>We will start off with, probably, the most important news from this week, that Haxe 3.2.1 has been released and is now available for download. Andy Li has tweeted the official, alternative ways you can install Haxe through some of the various package managers, homebrew and chocolatey, for example.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="release321" itemscope>
+				<a title="Whats New in Haxe 3.2.1?" href="/releases/3.2.1/">
+					<h1 itemprop="headline">What's New in Haxe 3.2.1?</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Haxe Foundation officially released Haxe 3.2.1 on 13th October 2015. To read about all the fixes checkout the Haxe 3.2.1 release details.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r339" itemscope>
+				<a title="Haxe Roundup № 339" href="/roundups/339/">
+					<h1 itemprop="headline">Haxe Roundup № 339</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Robert Konrad has released Kha 15.10, available from HaxeLib. In his announcement article, Robert has added Direct3D 12 support, OS X 10.11 support and direct AGAL support to Krafix.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r338" itemscope>
+				<a title="Haxe Roundup № 338" href="/roundups/338/">
+					<h1 itemprop="headline">Haxe Roundup № 338</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Tong, aka disktree, released updated JavaScript type definitions for Chrome extensions and Chrome apps. Both support Chrome from version 35 up to 45. Also Tong has ported nekoboot.neko to pure Haxe. If you’ve never heard of nekoboot, it takes your .n bytecode and merges it with the Neko VM, creating a single executable ready for distribution.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r337" itemscope>
+				<a title="Haxe Roundup № 337" href="/roundups/337/">
+					<h1 itemprop="headline">Haxe Roundup № 337</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Franco Ponticelli has posted that Pellucid Analytics, located in Boulder, Colorado, USA, are looking for a Senior Software Engineer to join the team. Knowing Haxe will be a big plus.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r336" itemscope>
+				<a title="Haxe Roundup № 336" href="/roundups/336/">
+					<h1 itemprop="headline">Haxe Roundup № 336</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Jeff Ward has released version 0.4.0 of HxScout, which is built with the latest and greatest HXCPP to provide a faster app, new and improved File dialogs, thanks to the recent release of linc_dialogs, and so much more! With Jeff’s experience work with the HXCPP target, he has posted his knowledge of working with async sockets over on Stack Overflow.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r335" itemscope>
+				<a title="Haxe Roundup № 335" href="/roundups/335/">
+					<h1 itemprop="headline">Haxe Roundup № 335</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Ian Harrigan starts this week’s roundup off with working demos of HaxeUI v2 demonstrating the OpenFL, Flambe, Kha and PixiJS backends. The amount of work involving in implementing each backend must be immense, very impressive!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r334" itemscope>
+				<a title="Haxe Roundup № 334" href="/roundups/334/">
+					<h1 itemprop="headline">Haxe Roundup № 334</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>François Benjamin wrote an introduction to Haxe, showing a couple code examples and the enthusiasm of someone who’s recently discovered Haxe.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld33" itemscope>
+				<a title="The Haxe Ludum Dare 33 Roundup" href="/ld/33/">
+					<h1 itemprop="headline">The Haxe Ludum Dare 33 Roundup</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This is the fifth dedicated Ludum Dare roundup for Haxe. Ludum Dare 33 took place between August 22th and 24th and the chosen theme was You are the Monster.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r333" itemscope>
+				<a title="Haxe Roundup № 333" href="/roundups/333/">
+					<h1 itemprop="headline">Haxe Roundup № 333</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Over on the mailing list, Robert Konrad has brought up the idea to create a suite of benchmarks to help out not only the various frameworks improve their performance, but also the standard library. I agree with others in the thread, like Robert and Hugh, who suggest that non framework related tests should be included, so the core compiler targets can be improved, benefiting everyone.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r332" itemscope>
+				<a title="Haxe Roundup № 332" href="/roundups/332/">
+					<h1 itemprop="headline">Haxe Roundup № 332</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>To start this weeks roundup off, Romuald Halasz has written an introductory post titled Haxe - A toolkit for cross-platform developement, useful for people unfamiliar with Haxe and transpilers in general.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r331" itemscope>
+				<a title="Haxe Roundup № 331" href="/roundups/331/">
+					<h1 itemprop="headline">Haxe Roundup № 331</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Let’s start off with a thread that’s just starting over on the mailing list, with the outcome likely to affect every single Haxe developer using a framework.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r330" itemscope>
+				<a title="Haxe Roundup № 330" href="/roundups/330/">
+					<h1 itemprop="headline">Haxe Roundup № 330</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Silex Lab’s team continues to steadily release WWX2015 recordings, with the last week seeing three talks released. Todd Kulick also published his slides from his talk onto GitHub. With the video being published, the Activity repository also has had its status defined.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r329" itemscope>
+				<a title="Haxe Roundup № 329" href="/roundups/329/">
+					<h1 itemprop="headline">Haxe Roundup № 329</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Silex Labs team have started releasing the long awaited WWX2015 videos, preceded by the Wrapping up WWX2015 article, with the event hosted in the beautiful Mozilla Paris offices.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r328" itemscope>
+				<a title="Haxe Roundup № 328" href="/roundups/328/">
+					<h1 itemprop="headline">Haxe Roundup № 328</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>While there is still time, the current Humble Bundle, the Game Making bundle, which contains 22 programs, including Stencyl which uses Haxe and OpenFL under the hood, is available in the bundle with an included Indie subscription worth $99.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r327" itemscope>
+				<a title="Haxe Roundup № 327" href="/roundups/327/">
+					<h1 itemprop="headline">Haxe Roundup № 327</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Nico May has been using Abe, an API combining Haxe, NodeJS and Express by Franco Ponticelli and Michael Martin-Smucker, to create over several week's Slick Rock a simple, embeddable, “no username, no password and no room setup” chat app.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r326" itemscope>
+				<a title="Haxe Roundup № 326" href="/roundups/326/">
+					<h1 itemprop="headline">Haxe Roundup № 326</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This week's main news, in my opinion, is that Andy Li is now working for the Haxe Foundation! It's about time!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r325" itemscope>
+				<a title="Haxe Roundup № 325" href="/roundups/325/">
+					<h1 itemprop="headline">Haxe Roundup № 325</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Sven Bergström posted the article “Snõwkit Dev Log #5 phoenix”, the long awaited snõwkit collective update. This dev log focuses on alpha-3.0 new renderer, its past and future.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r324" itemscope>
+				<a title="Haxe Roundup № 324" href="/roundups/324/">
+					<h1 itemprop="headline">Haxe Roundup № 324</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Kha has continued to gain attention since WWX2015. Dmitry Hryppa has been working on collecting data from the BunnyMark benchmark with implementations in OpenFL, Kha, MonoGame, XNA and LibGDX. With help from Robert Konrad, the creator of Kha, Kha's results have jumped from 61K, 75k to 131k.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r323" itemscope>
+				<a title="Haxe Roundup № 323" href="/roundups/323/">
+					<h1 itemprop="headline">Haxe Roundup № 323</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Alot has happened since the WWX2015 event. The age old question of “when will Haxe get short lambda's” has been asked again, now an WWX tradition.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="wwx2015" itemscope>
+				<a title="WWX2015 Highlights" href="/roundups/wwx/2015/">
+					<h1 itemprop="headline">WWX2015 Highlights</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This post is a brief post on what I think were the main highlights from this years WWX2015, hosted at Mozilla Paris and organised by Silex Labs, even though I missed half of the second day.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r322" itemscope>
+				<a title="Haxe Roundup № 322" href="/roundups/322/">
+					<h1 itemprop="headline">Haxe Roundup № 322</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>A Haxe ChromeCast multiplayer game created by Media Monks has been featured at Google IO 2015!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r321" itemscope>
+				<a title="Haxe Roundup № 321" href="/roundups/321/">
+					<h1 itemprop="headline">Haxe Roundup № 321</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Haxe World Wide Conference is almost upon us, which starts this Friday 29th May. I've kept quiet about so much news I've stumbled across which will come to light in the next few days, it's been difficult to keep quiet.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r320" itemscope>
+				<a title="Haxe Roundup № 320" href="/roundups/320/">
+					<h1 itemprop="headline">Haxe Roundup № 320</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The biggest news this week is that Haxe 3.2.0 has been officially released! This release adds the Python target, an experimental static analyzer and a few breaking changes which you can find out more about from the release notes or from the article What's New in Haxe 3.2.0.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="release320" itemscope>
+				<a title="What's New in Haxe 3.2.0?" href="/releases/3.2.0/">
+					<h1 itemprop="headline">What's New in Haxe 3.2.0?</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Haxe Foundation officially released Haxe 3.2.0 on Tuesday 12th May 2015. To read about all the new features, fixes and breaking changes checkout the Haxe 3.2.0-rc2 and Haxe 3.2.0 release details.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r319" itemscope>
+				<a title="Haxe Roundup № 319" href="/roundups/319/">
+					<h1 itemprop="headline">Haxe Roundup № 319</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The HaxeFlixel team have finally launched their Patreon page, so if you're able to provide financially support to help cover hosting costs and fund future development costs, then seriously consider it.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r318" itemscope>
+				<a title="Haxe Roundup № 318" href="/roundups/318/">
+					<h1 itemprop="headline">Haxe Roundup № 318</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Simone Cingano has, available from GitHub, TileCraft a 2.5D modeling program written with OpenFL. TileCraft is touted as being a “fast multi-platform modeling tool to make tiles for games, icons or whatever you want”. The project has decent documentation with a quick start guide, how to build from source, ready to use examples and more. This is one to watch.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r317" itemscope>
+				<a title="Haxe Roundup № 317" href="/roundups/317/">
+					<h1 itemprop="headline">Haxe Roundup № 317</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Jason O'Neil has shared his startup Today We Learned which is a website and app that guides teachers through a 60-second update, which empowers parents to start learning conversations at home with their children. Research shows these conversations have a significant impact on student motivation, behaviour and learning.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld32" itemscope>
+				<a title="The Haxe Ludum Dare 32 Roundup" href="/ld/32/">
+					<h1 itemprop="headline">The Haxe Ludum Dare 32 Roundup</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This is the fourth dedicated Ludum Dare roundup for Haxe. Ludum Dare 32 took place between April 17th and 20th and the chosen theme was An Unconventional Weapon.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r316" itemscope>
+				<a title="Haxe Roundup № 316" href="/roundups/316/">
+					<h1 itemprop="headline">Haxe Roundup № 316</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Lars Doucet has posted HaxeFlixel bounties for several issues which need fixing to make HaxeFlixel compatible with OpenFL Next. There are currently only three items left to get HaxeFlixel up to date.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r315" itemscope>
+				<a title="Haxe Roundup № 315" href="/roundups/315/">
+					<h1 itemprop="headline">Haxe Roundup № 315</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Andy Li has taken the lead in getting Haxe officially supported on Travis CI with help from Cauê Waneck and Simon Krajewski. Testing your Haxe project has been greatly simplified now, checked out the guide to using Haxe on Travis CI. Remember, if you want full, cross-platform testing consider travis-hx which provides helpers to test you project on Travis CI, Appveyor and SauceLabs.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r314" itemscope>
+				<a title="Haxe Roundup № 314" href="/roundups/314/">
+					<h1 itemprop="headline">Haxe Roundup № 314</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Haxor team are back, releasing the Web Bundle library onto GitHub. This library isn't Haxe specific, written in JavaScript running through NodeJS, Web Bundle aims to “significantly reduce the number of HTTP requests allowing fast page loads” by compressing text data by at “least 40% compressed”.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r313" itemscope>
+				<a title="Haxe Roundup № 313" href="/roundups/313/">
+					<h1 itemprop="headline">Haxe Roundup № 313</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>I'll start off with a project from Patrick Le Clec'h that's piqued my interest. Patrick has been releasing on twitter a bunch of experimental modifications to the Haxe compiler which you can try out over on hacking-haxe.atouchofcode.com.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r312" itemscope>
+				<a title="Haxe Roundup № 312" href="/roundups/312/">
+					<h1 itemprop="headline">Haxe Roundup № 312</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Of course the biggest news this week is that Haxe 3.2.0-rc.2 has been officially released by the Haxe Foundation! This release introduces the new Python target which was developed by Heinz Hölzer and Dan Korostelev. As with any new target it should be considered to be in beta stage. There will be a handful of breaking changes when Haxe 3.2.0 is finally released, so you better check out what's changed to just be safe.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r311" itemscope>
+				<a title="Haxe Roundup № 311" href="/roundups/311/">
+					<h1 itemprop="headline">Haxe Roundup № 311</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The WWX 2015 team, Silex Labs, have launched their crowdfunding campaign which at the time of writing this roundup, stands at 38% funded.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r305" itemscope>
+				<a title="Haxe Roundup № 310" href="/roundups/310/">
+					<h1 itemprop="headline">Haxe Roundup № 310</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This years Haxe conference site has finally gone live! Checkout the hard work Silex Labs team have put into the site. They also have support from the Mozilla Foundation who will be hosting this years conference in Paris. There is also a crowdfunding campaign which will launch this Monday 9th March.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r309" itemscope>
+				<a title="Haxe Roundup № 309" href="/roundups/309/">
+					<h1 itemprop="headline">Haxe Roundup № 309</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Slava Tretyak has written Fast Iterators for StringMap in which he benchmarks the StringMap Iterator implementation from Haxe 3.1.3, the Haxe GitHub repo and his own iterator implementation, all compiled to JavaScript running on Chrome, Safari and Firefox.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r308" itemscope>
+				<a title="Haxe Roundup № 308" href="/roundups/308/">
+					<h1 itemprop="headline">Haxe Roundup № 308</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This last week has had some pretty impressive posts, libraries and game releases. Sven Bergström has written, to date, the single best description of Haxe is in his post Haxe from 1000ft.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r307" itemscope>
+				<a title="Haxe Roundup № 307" href="/roundups/307/">
+					<h1 itemprop="headline">Haxe Roundup № 307</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The next Haxe release, version 3.2 is fast approaching, with the latest major change being merged, a cross-platform typed array implementation which follows the Javascript spec which “describes an array-like view of an underlying binary data buffer”. You can test it out via builds.haxe.org. New versions of Lime and OpenFL have been released, 2.1.1 and 2.2.6 respectively. Lime has added initial Emscripten support, allowing you to compile native code into optimised Javascript, asm.js, which gets a performance boost in Firefox since version 22.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r306" itemscope>
+				<a title="Haxe Roundup № 306" href="/roundups/306/">
+					<h1 itemprop="headline">Haxe Roundup № 306</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Silex Labs folks have tweeted that they are looking for speakers for this years upcoming WWX2015 conference. If your interested, you should create a pitch over on the Thaxe Force mailing list.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r305" itemscope>
+				<a title="Haxe Roundup № 305" href="/roundups/305/">
+					<h1 itemprop="headline">Haxe Roundup № 305</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Silex Labs have announced that the next Haxe Conference, WWX2015 will be hosted in Paris between the 29th May and 1st June!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r304" itemscope>
+				<a title="Haxe Roundup № 304" href="/roundups/304/">
+					<h1 itemprop="headline">Haxe Roundup № 304</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The last few days have seen three snõwkit articles released by Sven Bergström.
+
+The second focus sheet has been published alpha-2.0+0010 which will sort out the asset management system and ensuring windowing events are consistent which will result in some API behavioural changes. Sven also takes the time to talk about some recent updates and snowkit related news. I'm particularly interested in the native sdk based on what Sven has written.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r303" itemscope>
+				<a title="Haxe Roundup № 303" href="/roundups/303/">
+					<h1 itemprop="headline">Haxe Roundup № 303</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>HxLanguageServices is nothing but an amazingly ambitious project. Carlos Ballesteros Velasco describes HxLanguageServices over of the Haxe mailing list as a way to provide “tooling for Haxe in order to be productive”. As a proof of what the library can do, Carlos has created a demo IDE.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r302" itemscope>
+				<a title="Haxe Roundup № 302" href="/roundups/302/">
+					<h1 itemprop="headline">Haxe Roundup № 302</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Jeff Ward has started working on adding HXCPP support to hxScout, allowing your native OpenFL, luxe engine or custom engine be to send telemetry data to hxScout. This is something the Haxe community has wanted for an unfathomable amount of time!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r301" itemscope>
+				<a title="Haxe Roundup № 301" href="/roundups/301/">
+					<h1 itemprop="headline">Haxe Roundup № 301</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>After a short break from writing the roundup, lets get started with all the new library releases.
+
+Hugh Sanderson started the new year by releasing NME 5.2.7, NME dev-1.3.5 Waxe 3.1.1 and GM2D 3.2.5. The majority of changes appear in NME, a few of them being that NME is fully separated from Lime, building with MinGW is now possible and the text rendering has been reworked. You can find more detailed info in the announcement post.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r300" itemscope>
+				<a title="Haxe Roundup № 300" href="/roundups/300/">
+					<h1 itemprop="headline">Haxe Roundup № 300</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>NEO Scavenger, a “game where you must survive in the wasteland long enough to figure out who you are” created by Daniel Fedor using Haxe and OpenFL has received great reviews. As of today, NEO Scavenger is the number one selling game on GOG.com and has been for the last few days.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r229" itemscope>
+				<a title="Haxe Roundup № 229" href="/roundups/229/">
+					<h1 itemprop="headline">Haxe Roundup № 229</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Jason Sturges has written a new performance benchmark post covering float math, object instantiation, down casting, up casting, event dispatching, function overhead, function inlining, loops and finally Graphic drawing each compiled to Neko, Flash, HTML5 and Native (OSX).</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r228" itemscope>
+				<a title="Haxe Roundup № 228" href="/roundups/228/">
+					<h1 itemprop="headline">Haxe Roundup № 228</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The OpenFL team has created and released the feature matrix which shows the differences between OpenFLs targets, Flash, HTML5, Native and Native Next. The feature matrix appears to cover the entire API.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r227" itemscope>
+				<a title="Haxe Roundup № 227" href="/roundups/227/">
+					<h1 itemprop="headline">Haxe Roundup № 227</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Lubos Lenco has published two demos this week, a custom water mesh shader and a interactive chesh board, both created with Lubos's own unreleased game framework which integrates Blender and Kha. Even though these demos run on WebGL, because of Kha, Lubos can compile the demos for Windows, OSX, Linux, Android, iOS, Xbox, PlayStation Vita which are just some of the compile platforms.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r226" itemscope>
+				<a title="Haxe Roundup № 226" href="/roundups/226/">
+					<h1 itemprop="headline">Haxe Roundup № 226</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Infognition have written a great post titled From native code to browser: Flash, Haxe, Dart or asm.js? in which Dee Mon tests Flash, Haxe, Dart and asm.js in a computation intensive task, the decompression of a key frame to RGB24.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r225" itemscope>
+				<a title="Haxe Roundup № 225" href="/roundups/225/">
+					<h1 itemprop="headline">Haxe Roundup № 225</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Daniel Glazman has written Announcing Quaxe, a pure Haxe DOM and CSS implementation which will allow native desktop and mobile applications using native UI using HTML5 compiled with Haxe.
+
+You can stay up todate with the development of Quaxe at its official site, where you can see that Daniel has implemented full support for Level 3 and partial Level 4 CSS selectors.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r224" itemscope>
+				<a title="Haxe Roundup № 224" href="/roundups/224/">
+					<h1 itemprop="headline">Haxe Roundup № 224</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Sven Bergström has published the first snõwkit community focus sheet, named alpha-1.0+parrott. I suggest that you first take the time to read up on the concept of focus sheets, then continue reading alpha-1.0+parrott.
+
+With the release of the first focus sheet, Sven is setting a solid, strong and structured set of guidelines for the community to follow. Also by focusing on one problem at a time, he is enabling the community to have a discussion.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r223" itemscope>
+				<a title="Haxe Roundup № 223" href="/roundups/223/">
+					<h1 itemprop="headline">Haxe Roundup № 223</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Papers, Please back in May swept the IGF awards at GDC and on the 29th October, Papers, Please the dystopian document thrill by Lucas Pope won the GameCity 2014 Prize, adding one more award to his collection. Papers, Please is probably the most successful Haxe and NME/OpenFL powered game.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r222" itemscope>
+				<a title="Haxe Roundup № 222" href="/roundups/222/">
+					<h1 itemprop="headline">Haxe Roundup № 222</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Franco Ponticelli has written The Benefits of Transpiling to JavaScript over on io.pellucid.com which is a great introduction to Haxe for Javascript developers investigating various transpilers compilers. In the article Franco has been able to introduce a lot of Haxe's features but in small, easy to understand, effective chunks.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r221" itemscope>
+				<a title="Haxe Roundup № 221" href="/roundups/221/">
+					<h1 itemprop="headline">Haxe Roundup № 221</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>OpenFL has received a lot of attention this last week with the news that Flash CC will support custom platforms. Joshua Granick, lead maintainer of OpenFL, helped present the new feature at Adobe Max 2014 in What's New and Upcoming in Flash Professional CC.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r220" itemscope>
+				<a title="Haxe Roundup № 220" href="/roundups/220/">
+					<h1 itemprop="headline">Haxe Roundup № 220</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Sven Bergström has released an impressive set of brand new libraries for Haxe, flõw, snõw and luxe, all of which are part of Snõwkit. With the alpha release of Snõwkit, Sven has given the community a set of libraries which allow you to deploy to Windows, Linux, Mac, Android, iOS and WebGL, using Luxe, a high level game engine, or Snõw, a low level platform framework, both of which use Flõw, a build tool for Haxe.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r219" itemscope>
+				<a title="Haxe Roundup № 219" href="/roundups/219/">
+					<h1 itemprop="headline">Haxe Roundup № 219</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Kirill Poletaev has created haxecoder.com, a tutorial site for Haxe and OpenFL, releasing a new tutorial nearly every day.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r218" itemscope>
+				<a title="Haxe Roundup № 218" href="/roundups/218/">
+					<h1 itemprop="headline">Haxe Roundup № 218</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Jeremy Sachs ages ago released to GitHub Golems, “a macro-backed system for compiling and embedding workers into larger builds”, which works on Flash, JavaScript, Neko and C++ compile targets. Its now available from haxelib.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r217" itemscope>
+				<a title="Haxe Roundup № 217" href="/roundups/217/">
+					<h1 itemprop="headline">Haxe Roundup № 217</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>There are two upcoming events, Gamedev101 Level1 by Dan Hett which is an introduction to the fundamentals of videos game using Stencyl and FOSDEM 2015 which Elliott Stoneham has taken upon himself to organise a bunch of Haxe users to attend and talk.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="eLevel1" itemscope>
+				<a title="Upcoming Event: Game Dev 101 - Level 1" href="/events/gamedev101/level1/">
+					<h1 itemprop="headline">Game Dev 101 - Level 1</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Game Dev 101 is a one-day games development course that teaches the fundamentals of creating video games completely from scratch using Stencyl.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r216" itemscope>
+				<a title="Haxe Roundup № 216" href="/roundups/216/">
+					<h1 itemprop="headline">Haxe Roundup № 216</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>I have published two articles this week, the first being The Haxe Ludum Dare 30 Roundup which features over 85 games using Haxe, Kha, Flambe, OpenFL, HaxePunk, HaxeFlixel and Stencyl. The OpenFL library is used in about 86% of the games and HaxeFlixel being the most popular high level framework in use.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="noc" itemscope>
+				<a title="What is The Nature of Code?" href="/videos/noc/what-is-it/">
+					<h1 itemprop="headline">What is The Nature of Code?</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The first in the series of The Nature of Haxe and OpenFL videos based on the book The Nature of Code written by Daniel Shiffman originally using Processing. Christopher takes you through programming strategies and techniques behind computer simulations of natural systems using Haxe and OpenFL.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld30" itemscope>
+				<a title="The Haxe Ludum Dare 30 Roundup" href="/ld/30/">
+					<h1 itemprop="headline">The Haxe Ludum Dare 30 Roundup</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>This is the second dedicated Ludum Dare roundup for Haxe. Ludum Dare 30 took place between August 22nd and 25th and the chosen theme was Connected Worlds.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r215" itemscope>
+				<a title="Haxe Roundup № 215" href="/roundups/215/">
+					<h1 itemprop="headline">Haxe Roundup № 215</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Nicolas will be talking about Haxe at GameDuell on Wednesday 10th September in Berlin, so if you're able to attend, you need to register your interest in going. Also head over to the Haxe mailing list where some people attending the event have started a thread.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r214" itemscope>
+				<a title="Haxe Roundup № 214" href="/roundups/214/">
+					<h1 itemprop="headline">Haxe Roundup № 214</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>There are two upcoming events, the first is the Haxe Meetup in London next Wednesday hosted by Massive Interactive. Remember to register your interest in attending.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r213" itemscope>
+				<a title="Haxe Roundup № 213" href="/roundups/213/">
+					<h1 itemprop="headline">Haxe Roundup № 213</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Massive Interactive team are hosting a Haxe Meetup, on the 27th August 2014 at their London offices 10 Lower Thames Street, London EC3R 6AF. Head over to the Eventbrite page to register interest in attending.</p>
+			</li>
+			<li itemtype="http://schema.org/org/Series" id="r212" itemscope>
+				<a title="Haxe Roundup № 212" href="/roundups/212/">
+					<h1 itemprop="headline">Haxe Roundup № 212</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>David Mouton has written Develop in Haxe with NPM in which he explains why you might want to use NPM and Haxe, how to get setup and started, then taking it further by configuring IntelliJ IDEA and Jenkins, an open source continuous integration server.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r211" itemscope>
+				<a title="Haxe Roundup № 211" href="/roundups/211/">
+					<h1 itemprop="headline">Haxe Roundup № 211</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Sys Tools by Cauê Waneck, which is a fork of the Haxe 2 repository, provides a crossplatform way to access low level systems APIS. Cauê's fork provides ndll bindings compatible with Haxe 3+ and Neko 2+.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="flambes-future" itemscope>
+				<a title="Flambes Future by Bruno Garcia WWX 2014 Speech" href="/roundups/wwx/flambes-future/">
+					<h1 itemprop="headline">Flambes Future by Bruno Garcia</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Bruno who is the JavaScript target maintainer, who also started Haxe Meme and wrote Flambe, a 2D game engine starts off by stating how Flambe has had amazing growth and adoption with over 200 commercial games built with Flambe. Bruno has a strong focus on developer UX, focused on tool integration and rapid development, which have undoubtedly contributed to its success.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r210" itemscope>
+				<a title="Haxe Roundup № 210" href="/roundups/210/">
+					<h1 itemprop="headline">Haxe Roundup № 210</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Lets start off with probably the biggest news, Greg Caldwell has released Away3D 1.0.0-alpha, available now from haxelib, which is a complete port to OpenFL working across all platforms. This release includes model loading of 3DS, AWD, MD5, MD2 DAE formats, skeleton and skinned animation and plenty more.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="cocktail-nme" itemscope>
+				<a title="Development Workflow with Cocktail and NME by Thomas Fétiveau WWX 2014 Speech" href="/roundups/wwx/cocktail-and-nme/">
+					<h1 itemprop="headline">Cocktail and NME by Thomas Fétiveau</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Thomas shares his knowledge of using Cocktail, a HTML and CSS rendering engine by SilexLabs the hosts of WWX. He starts off with the development workflow that he uses, starting off by targeting any browser and once everything is working, compile using Cocktail to the Flash player to see if anything needs fixing.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r209" itemscope>
+				<a title="Haxe Roundup № 209" href="/roundups/209/">
+					<h1 itemprop="headline">Haxe Roundup № 209</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Taigolr has created and released another library, Assets Manager, which provides utilities to manage external file. Manage meaning queue, load and save files using relative, absolute paths or urls [and] receive alerts for modified files or folders.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="cpp-magic" itemscope>
+				<a title="C++ Magic by Hugh Sanderson WWX 2014 Speech" href="/roundups/wwx/c++-magic/">
+					<h1 itemprop="headline">C++ Magic by Hugh Sanderson</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Hugh introduces “C++ Magic” which gives libraries access to platform specific functions.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r208" itemscope>
+				<a title="Haxe Roundup № 208" href="/roundups/208/">
+					<h1 itemprop="headline">Haxe Roundup № 208</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>There are two job offerings that have appeared this week. The first from Massive Interactive who have the largest Haxe engineering team world wide, building native TV applications across mobile, tablet, smart TV's and the latest game consoles.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="one-year-of-haxe" itemscope>
+				<a title="One Year of Haxe by Nicolas Cannasse WWX 2014 Speech" href="/roundups/wwx/one-year-of-haxe/">
+					<h1 itemprop="headline">One Year of Haxe by Nicolas Cannasse</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Nicolas opened the conference by going over what has changed in the last year, the various releases, new features, additional syntax and further speed improvements.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r207" itemscope>
+				<a title="Haxe Roundup № 207" href="/roundups/207/">
+					<h1 itemprop="headline">Haxe Roundup № 207</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Highwayman Stars belong to you, created by Chau Guillaume and François Rousset using Haxe, OpenFL and HaxeFlixel have made a “space-opera RPG made by a small team of two french students”. Highwayman was made for the 2014 Indie Game Maker Contest where you can vote for them.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r206" itemscope>
+				<a title="Haxe Roundup № 206" href="/roundups/206/">
+					<h1 itemprop="headline">Haxe Roundup № 206</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Lets start off with an article written by Lars Doucet titled  Dear Adobe: Support Haxe, save your Tools. With a great title, Lars goes into  how Adobe can profit big from depending on Haxe and all its awesome features and  name dropping big companies who already profit from using Haxe, TiVo, Nickelodeaon,   Disney, Toyota and more, articles like this help bring attention to Haxe, but   with some comments saying that associating with Flash is dragging down Haxe,  is it the correct type of attention that Haxe and the community needs?    </p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r205" itemscope>
+				<a title="Haxe Roundup № 205" href="/roundups/205/">
+					<h1 itemprop="headline">Haxe Roundup № 205</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>The Chimango Games team have posted a youtube video of the visual evolution of their current game Pewma since they started working on it.    </p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r204" itemscope>
+				<a title="Haxe Roundup № 204" href="/roundups/204/">
+					<h1 itemprop="headline">Haxe Roundup № 204</h1>
+				</a>
+				<time datecreated="$date" pubdate="" datetime="$date"></time>
+				<p>Cristian Baluta has renamed his Objective-C Haxe compile target to Swift, I   wonder what its going be targeting now...    </p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r203" itemscope>
+				<a title="Haxe Roundup № 203" href="/roundups/203/"><h1 itemprop="headline">Haxe Roundup № 203</h1></a>
+				<p>While I continue to work on the write up of WWX2014, which is insanely behind release, you  can browse the WWX2014 photo collection to tide you over. You can then checkout  Cristian Baluta's photo album. Then onto the SilexLabs youtube playlist of   past WWX videos.    </p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r202" itemscope>
+				<a title="Haxe Roundup № 202" href="/roundups/202/"><h1 itemprop="headline">Haxe Roundup № 202</h1></a>
+				<p>Between the 23rd and 26th of May, last weekend, WWX 2014 took place with some impressive  talks and announcements. The easiest thing to notice is the brand new haxe.org website.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r201" itemscope>
+				<a title="Haxe Roundup № 201" href="/roundups/201/"><h1 itemprop="headline">Haxe Roundup № 201</h1></a>
+				<p>With the WWX 2014 conference almost upon us, starting this Friday, how about getting to know some of the speakers? Checkout the following speaker interviews for more information on what impresses and inspires them, their opinions on the future of Haxe and OpenFL and a little more detail about their upcoming talks. </p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_juraj" itemscope>
+				<a title="Juraj Kirchheim's Haxe WWX 2014 Speaker Interview" href="/wwx/2014/Juraj-Kirchheim/"><h1 itemprop="headline">Juraj Kirchheim's WWX 2014 Speaker Interview</h1></a>
+				<p>I love playing music, having a good argument, writing decent code, spending time with all kinds of people. I hate writing self-descriptions.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_elliott" itemscope>
+				<a title="Elliott Stoneham's Haxe WWX 2014 Speaker Interview" href="/wwx/2014/Elliott-Stoneham/"><h1 itemprop="headline">Elliott Stoneham's WWX 2014 Speaker Interview</h1></a>
+				<p>At the moment I'm a full-time Go developer and part-time Haxe enthusiast. But a year ago my life was entirely different. I was a retired business executive, who hadn't programmed for ten years. The Go and Haxe languages led me to fall in love with programming again. I am grateful to them both.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_justin" itemscope>
+				<a title="Justin Donaldson's Haxe WWX 2014 Speaker Interview" href="/wwx/2014/Justin-Donaldson/"><h1 itemprop="headline">Justin Donaldson's WWX 2014 Speaker Interview</h1></a>
+				<p>I'm constantly learning: programming languages, data science, machine learning, music.  You see that sailing pic?  I have no idea what I'm doing there.  But, I haven't drowned yet, or wrecked the boat.  So it goes with learning...</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_caue" itemscope>
+				<a title="Cauê Waneck's Haxe WWX 2014 Speaker Interview" href="/wwx/2014/Caue-Waneck/"><h1 itemprop="headline">Cauê Waneck's WWX 2014 Speaker Interview</h1></a>
+				<p>I'm a sleep deprived programmer that really like working on tools, game programming and optimization.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_franco" itemscope>
+				<a title="Franco Ponticelli's Haxe WWX 2014 Speaker Interview" href="/wwx/2014/Franco-Ponticelli/"><h1 itemprop="headline">Franco Ponticelli's WWX 2014 Speaker Interview</h1></a>
+				<p>I'm old, very old, but only on the outside. Long time computer geek, developer by trade and passionate about so many things that it is way too easy to lose count.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_andreas" itemscope>
+				<a title="Andreas Soderlund's Haxe WWX 2014 Speaker Interview" href="/wwx/2014/Andreas-Soderlund/"><h1 itemprop="headline">Andreas Soderlund's WWX 2014 Speaker Interview</h1></a>
+				<p>It's kind of hard to describe myself, since I don't enjoy putting labels on someone, but also because I embrace change, which can happen so fast. Some things I try to maintain and improve with myself though is to be genuine, caring and spiritual.</p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="speaker_hugh" itemscope>
+				<a title="Hugh Sanderson's Haxe WWX 2014 Speaker Interview" href="/wwx/2014/Hugh-Sanderson/"><h1 itemprop="headline">Hugh Sanderson's WWX 2014 Speaker Interview</h1></a>
+				<p>I use all sorts of hardware.  I mainly use a desktop PC (which I can boot to Linux) and Macbook air.  But I also have various Android devices and an iPad(1), and a Mac-mini I use for builds.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r200" itemscope>
+				<a title="Haxe Roundup № 200" href="/roundups/200/"><h1 itemprop="headline">Haxe Roundup № 200</h1></a>
+				<p>Lars Doucet has released his light weight localization library Fire Tongue  onto haxelib. The github repository README file is full of   setup instructions, asset setup, formatting instructions, a yoda-ish advanced use  guide, HaxeFlixel UI integration and more.    </p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r199" itemscope>
+				<a title="Haxe Roundup № 199" href="/roundups/199/"><h1 itemprop="headline">Haxe Roundup № 199</h1></a>
+				<p>Haxor the HTML5 and WebGL engine has been released, currently as a direct   download, Haxor <em>“combines the power of [the] Haxe language, HTML5 [and]   WebGL to easily develop powerful applications that can run in any modern browser”</em>.    </p>
+			</li>
+			<li itemtype="http://schema.org/Article" id="ld29" itemscope>
+				<a title="The Haxe Ludum Dare 29 Roundup" href="/ld/29/"><h1 itemprop="headline">The Haxe Ludum Dare 29 Roundup</h1></a>
+				<p>This is the first dedicated Ludum Dare roundup for Haxe, as every other Ludum Dare list  has been rolled into the weekly Haxe Roundup as a small side addition, so its only fair  that all these Haxe games get their own roundup.    </p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r198" itemscope>
+				<a title="Haxe Roundup № 198" href="/roundups/198/"><h1 itemprop="headline">Haxe Roundup № 198</h1></a>
+				<p>A brand new target has been added to Haxe, thanks to Frabbit and   Simon Krajewski who have created the Python target. You can grab   a nightly build to test it out.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r197" itemscope>
+				<a title="Haxe Roundup № 197" href="/roundups/197/"><h1 itemprop="headline">Haxe Roundup № 197</h1></a>
+				<p>If your attending WWX2014 the 4th International Haxe Conference, then you're lucky. But you will likely need somewhere to stay, so checkout the details for the official WWX2014 Hotel. There is only a month until it kicks off!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" id="r196" itemscope>
+				<a title="Haxe Roundup № 196" href="/roundups/196/"><h1 itemprop="headline">Haxe Roundup № 196</h1></a>
+				<p>The Haxe Foundation have released Haxe version <code>3.1.3</code>. This release is considered a bug fix release, but really its a sign of a closer community forming, as this release fixes an incompatibility between the standard library and OpenFL.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" itemscope>
+				<h1 itemprop="headline">
+					<a title="Haxe Roundup № 195" href="/roundups/195/">Haxe Roundup № 195</a>
+				</h1>
+				<p>Lars Doucet has released some impressive news on the upcoming Defender's Quest 2 game. Nobua Uematsu, the world famous video game composer, will be working on the main theme.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" itemscope>
+				<h1 itemprop="headline">
+					<a title="Haxe Roundup № 194" href="/roundups/194/">Haxe Roundup № 194</a>
+				</h1>
+				<p>Today is the last day to support Haxe, OpenFL, FlashDevelop and RenPy in this weeks Humble Bundle Weekly Sale celebrating open source!</p>
+			</li>
+			<li itemtype="http://schema.org/Series" itemscope>
+				<h1 itemprop="headline">
+					<a title="Haxe Roundup № 193" href="/roundups/193/">Haxe Roundup № 193</a>
+				</h1>
+				<p>Papers, Please has swept the IGF awards at GDC this year, winning 3 out of 8 categories, <em>Excellence in Narrative</em>, <em>Excellence in Design</em> and the <em>Seumas McNally Grand Prize</em>! Congratulations to Lucas Pope for the great success.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" itemscope>
+				<h1 itemprop="headline">
+					<a title="Haxe Roundup № 192" href="/roundups/192/">Haxe Roundup № 192</a>
+				</h1>
+				<p>A couple of weeks ago, Haxe <code>3.1.0</code> was released. Well, Haxe <code>3.1.1</code> <del>bugfix</del> release has been made available for download. Three new features have made there way into this release, with the more notable being you can now embed unicode values into your strings.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" itemscope>
+				<h1 itemprop="headline">
+					<a title="Haxe Roundup № 191" href="/roundups/191/">Haxe Roundup № 191</a>
+				</h1>
+				<p>Emiliano Angelini has created and released another OpenFL native extension, this time for Google Analytics v3, called GAnalytics. The currently supported targets are iOS and Android. Its based on Hyperfiction's HypGA repository.</p>
+			</li>
+			<li itemtype="http://schema.org/Series" itemscope>
+				<h1 itemprop="headline">
+					<a title="Haxe Roundup № 190" href="/roundups/190/">Haxe Roundup № 190</a>
+				</h1>
+				<p>On Tuesday, the Haxe Foundation released version <code>3.1.0</code> with its main focus being on improved stability and bug fixes.</p>
+			</li>
+		</ul>
+	</main>
+	<footer class="grid">
+		<div class="grid-1-1">
+			<div class="logo">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 100 100" version="1.1" viewBox="0 0 100 125" y="0px" x="0px">
+						<g transform="rotate(180 50 50)">
+							 <path d="m78.674 49.87c-0.111-0.868-0.743-0.769-1.068-0.644-1.105 0.426-3.735 0.646-4.974 0.475-3.024-0.423-2.725-2.133-2.725-2.133s3.51 1.729 5.882 0.527c1.549-0.785 2.725-1.617 6.948-0.086 0 0 5.013 1.651 7.263 2.007v-0.032c-2.25 0.355-7.263 2.004-7.263 2.004-4.224 1.533-5.399 0.701-6.948-0.084-2.372-1.197-5.882 0.525-5.882 0.525s-0.3-1.707 2.725-2.13c1.238-0.174 3.868 0.049 4.974 0.475 0.342 0.13 1.022 0.231 1.08-0.783l-0.012-0.121zm1.287 0.13c0 0.546-0.339 1.011-0.817 1.199 0.148 0.058 0.307 0.091 0.474 0.091 0.713 0 1.289-0.579 1.289-1.29 0-0.713-0.576-1.289-1.289-1.289-0.167 0-0.325 0.033-0.474 0.093 0.478 0.188 0.817 0.65 0.817 1.196zm2.743 0c0 0.37-0.228 0.686-0.553 0.813 0.101 0.04 0.207 0.061 0.32 0.061 0.483 0 0.876-0.391 0.876-0.874 0-0.485-0.393-0.875-0.876-0.875-0.113 0-0.22 0.022-0.32 0.064 0.326 0.128 0.553 0.442 0.553 0.811zm-1.309 0.003c0 0.437-0.272 0.804-0.653 0.957 0.116 0.044 0.244 0.072 0.379 0.072 0.569 0 1.031-0.463 1.031-1.029 0-0.571-0.462-1.034-1.031-1.034-0.135 0-0.263 0.03-0.379 0.074 0.38 0.151 0.653 0.523 0.653 0.96z"/>
+							 <g>
+							  <line x1="10" y1="49.998" x2="54.026" y2="49.998"/>
+							  <path d="m10 49.998c3.67-0.084 7.338-0.123 11.009-0.158l11.004-0.049 11.007 0.049 5.503 0.059 5.503 0.1-5.503 0.103-5.503 0.058-11.007 0.047-11.004-0.047c-3.671-0.036-7.339-0.076-11.009-0.162z"/>
+							 </g>
+							 <g>
+							  <line x1="51.492" y1="49.998" x2="72.216" y2="49.998"/>
+							  <path d="m51.492 49.998c3.454-1.099 6.906-1.352 10.36-1.396 3.455 0.042 6.909 0.291 10.363 1.396-3.454 1.108-6.908 1.359-10.363 1.401-3.454-0.048-6.906-0.299-10.36-1.401z"/>
+							 </g>
+					 	</g>
+					</svg>
+				</div>
+				<div type="image/logo">
+					<svg viewBox="0 0 320 320" enable-background="new">
+						<g>
+							<g id="a" transform="translate(-2,-2)">
+								<path stroke-width="15.6" stroke="#000" d="m93.7 25.3-68.4 68.3" stroke-linecap="round" fill="none"></path>
+								<path stroke-width="15.3" stroke="#000" id="b" d="m52.4 153 36.6-37" stroke-linecap="round" transform="translate(2)" fill="none"></path>
+								<path stroke-width="14" stroke="#000" d="m271 22.5-246 246" stroke-linecap="round" fill="none"></path>
+								<use height="1052.3622" y="0" x="0" xlink:href="#b" width="744.09448" transform="translate(60,-60)"></use>
+							</g>
+							<use height="1052.3622" y="0" x="0" xlink:href="#a" width="744.09448" transform="matrix(-1 0 0 -1 332 331)"></use>
+						</g>
+					</svg>
+				</div>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 100 100" version="1.1" viewBox="0 0 100 125" y="0px" x="0px">
+					 <path d="m78.674 49.87c-0.111-0.868-0.743-0.769-1.068-0.644-1.105 0.426-3.735 0.646-4.974 0.475-3.024-0.423-2.725-2.133-2.725-2.133s3.51 1.729 5.882 0.527c1.549-0.785 2.725-1.617 6.948-0.086 0 0 5.013 1.651 7.263 2.007v-0.032c-2.25 0.355-7.263 2.004-7.263 2.004-4.224 1.533-5.399 0.701-6.948-0.084-2.372-1.197-5.882 0.525-5.882 0.525s-0.3-1.707 2.725-2.13c1.238-0.174 3.868 0.049 4.974 0.475 0.342 0.13 1.022 0.231 1.08-0.783l-0.012-0.121zm1.287 0.13c0 0.546-0.339 1.011-0.817 1.199 0.148 0.058 0.307 0.091 0.474 0.091 0.713 0 1.289-0.579 1.289-1.29 0-0.713-0.576-1.289-1.289-1.289-0.167 0-0.325 0.033-0.474 0.093 0.478 0.188 0.817 0.65 0.817 1.196zm2.743 0c0 0.37-0.228 0.686-0.553 0.813 0.101 0.04 0.207 0.061 0.32 0.061 0.483 0 0.876-0.391 0.876-0.874 0-0.485-0.393-0.875-0.876-0.875-0.113 0-0.22 0.022-0.32 0.064 0.326 0.128 0.553 0.442 0.553 0.811zm-1.309 0.003c0 0.437-0.272 0.804-0.653 0.957 0.116 0.044 0.244 0.072 0.379 0.072 0.569 0 1.031-0.463 1.031-1.029 0-0.571-0.462-1.034-1.031-1.034-0.135 0-0.263 0.03-0.379 0.074 0.38 0.151 0.653 0.523 0.653 0.96z"/>
+					 <g>
+					  <line x1="10" y1="49.998" x2="54.026" y2="49.998"/>
+					  <path d="m10 49.998c3.67-0.084 7.338-0.123 11.009-0.158l11.004-0.049 11.007 0.049 5.503 0.059 5.503 0.1-5.503 0.103-5.503 0.058-11.007 0.047-11.004-0.047c-3.671-0.036-7.339-0.076-11.009-0.162z"/>
+					 </g>
+					 <g>
+					  <line x1="51.492" y1="49.998" x2="72.216" y2="49.998"/>
+					  <path d="m51.492 49.998c3.454-1.099 6.906-1.352 10.36-1.396 3.455 0.042 6.909 0.291 10.363 1.396-3.454 1.108-6.908 1.359-10.363 1.401-3.454-0.048-6.906-0.299-10.36-1.401z"/>
+					 </g>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

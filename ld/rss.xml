@@ -1,0 +1,19 @@
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+	<title>Haxe News and Resources</title>
+	<description>Haxe.io — News And Information For Haxe Developers</description>
+	<link>http://haxe.io/</link>
+	<language>en-gb</language>
+	<pubDate>Thu, 29 May 2014 15:12:30 GMT</pubDate>
+	<lastBuildDate>Thu, 19 Jun 2014 14:31:25 GMT</lastBuildDate>
+	<ttl>1440</ttl>
+	<atom:link rel="self" type="application/rss+xml" href="http://haxe.io/ld/rss.xml"></atom:link>
+<item>
+	<title>The Haxe Ludum Dare 29 Roundup</title>
+	<description>This is the first dedicated Ludum Dare roundup for Haxe, as every other Ludum Dare list  has been rolled into the weekly Haxe Roundup as a small side addition, so its only fair  that all these Haxe games get their own roundup.    </description>
+	<link>http://haxe.io/ld/29/</link>
+	<guid>http://haxe.io/ld/29/</guid>
+	<pubDate>Thu, 29 May 2014 15:12:30 GMT</pubDate>
+</item></channel>
+</rss>

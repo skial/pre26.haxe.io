@@ -1,0 +1,221 @@
+<html lang="en" class="/roundups"><head>
+		
+	
+		
+	
+
+		<meta charset="utf-8">
+		<!-- AWS S3 doesnt allow cps headers to be set and forwarded via cloudfront -->
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self' ; script-src 'self' 'unsafe-inline' *.google-analytics.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; img-src 'self' www.google-analytics.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com; connect-src 'self' ; media-src 'self' ; object-src 'self' ; child-src 'self' ; form-action 'self' ;">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<title>Haxe Roundup № 377 | Haxe.io</title>
+		
+	
+
+		<!-- Twitter Meta -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@skial">
+		<meta name="twitter:creator" content="@skial">
+		<meta name="twitter:title" content="Haxe Roundup № 377">
+		<meta name="twitter:description" content="The latest news covering the Haxe community, featuring upcoming talks, the latest HaxeLib releases, game previews and lots more!">
+		<!--<meta name="twitter:image" content="" />-->
+		<meta name="twitter:image" content="http://haxe.io/img/roundups/377/preview.png">
+		<!-- Google+, Facebook, OpenGraph Meta -->
+		<meta property="og:title" content="Haxe Roundup № 377">
+		<meta property="og:image" content="http://haxe.io/img/roundups/377/preview.png">
+		<meta property="og:url" content="https://haxe.io/roundups/377/">
+		<meta property="og:description" content="The latest news covering the Haxe community, featuring upcoming talks, the latest HaxeLib releases, game previews and lots more!">
+		<meta property="og:type" content="article">
+		<meta property="og:site_name" content="Haxe.io — News And Information For Haxe Developers">
+		<meta property="og:image:secure_url" content="https://haxe.io/img/roundups/377/preview.png">
+		<meta property="og:image:width" content="1920">
+		<meta property="og:image:height" content="1080">
+		<meta property="og:image:type" content="image/png">
+		<!---- Extra -->
+		<meta name="description" content="The latest news covering the Haxe community, featuring upcoming talks, the latest HaxeLib releases, game previews and lots more!">
+		<!-- Google Authorship and Publisher Data -->
+		<link rel="author" href="https://plus.google.com/+SkialBainn/posts">
+		<!-- RSS -->
+		<link title="Haxe.io Feed" rel="alternate" type="application/rss+xml" href="http://blog.skialbainn.com/rss">
+	
+		
+	
+
+		<link rel="stylesheet" href="/css/normalize.css?v=c82661c196b5a35b02c09e91cae2da98220d3caed9de8ba36191e617fc2668311ef043fbf9a2bc86ee7f4ca2f728a1ee7c20afb533b7fd339c32e68811dc8011" integrity="sha512-yCZhwZa1o1sCwJ6RyuLamCINPK7Z3oujYZHmF/wmaDEe8EP7+aK8hu5/TKL3KKHufCCvtTO3/TOcMuaIEdyAEQ==" crossorigin="anonymous">
+	  <link rel="stylesheet" href="/css/normalize-opentype.css?v=33625105f2329bcd9cccbca5bcb1b4cde1c54fe791adea77c6a9d376409ce04de175ccbeac4560a73503867118275d7a7b5998e9f9afbcc5cdb14e0d5f9119da" integrity="sha512-M2JRBfIym82czLylvLG0zeHFT+eRrep3xqnTdkCc4E3hdcy+rEVgpzUDhnEYJ116e1mY6fmvvMXNsU4NX5EZ2g==" crossorigin="anonymous">
+	  <link rel="stylesheet" href="/css/haxe.io.css?v=13c22f2c6c0f5562ea11dafab1a333a62111728016b4b722651eda4dd37e4db5aa380deced3d7f05ec9c82cb56852939b0c143e138025d32b498403c79b9909d" integrity="sha512-E8IvLGwPVWLqEdr6saMzpiERcoAWtLciZR7aTdN+TbWqOA3s7T1/BeycgstWhSk5sMFD4TgCXTK0mEA8ebmQnQ==" crossorigin="anonymous">
+	  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open Sans:600,400,700,800|Gentium Book Basic:400,700,400italic,700italic&amp;text=HaxeRoundp№37bySkilBtM2hrc01gsCWmf.v,-UNwAEDFç/“Jé”LO&amp;jXP?G46958IT()Y!">
+	
+		
+	
+
+		<!-- From https://github.com/audreyr/favicon-cheat-sheet -->
+		<!-- Touch icon for iOS 2.0+ and Android 2.1+ -->
+		<link rel="apple-touch-icon-precomposed" href="/img/favicon/152.png?v=04ac3507cbc44dd37547f72ca61cd18cf06604435af4c2a80db53cde89fd0a1b974b7a62f09300e3755f620b2336ffd741f8bdb1cc08fdbe8c47c9461ddbd9ce" integrity="sha512-BKw1B8vETdN1R/csphzRjPBmBENa9MKoDbU83on9ChuXS3pi8JMA43VfYgsjNv/XQfi9scwI/b6MR8lGHdvZzg==" crossorigin="anonymous">
+		<!-- IE 10 Metro tile icon (Metro equivalent of apple-touch-icon) -->
+		<meta name="msapplication-TileColor" content="#f15922">
+		<meta name="msapplication-TileImage" content="/img/favicon/144.png">
+		<!-- For iPad with high-resolution Retina display running iOS ≥ 7 -->
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/favicon/152.png?v=04ac3507cbc44dd37547f72ca61cd18cf06604435af4c2a80db53cde89fd0a1b974b7a62f09300e3755f620b2336ffd741f8bdb1cc08fdbe8c47c9461ddbd9ce" integrity="sha512-BKw1B8vETdN1R/csphzRjPBmBENa9MKoDbU83on9ChuXS3pi8JMA43VfYgsjNv/XQfi9scwI/b6MR8lGHdvZzg==" crossorigin="anonymous">
+		<!-- For iPad with high-resolution Retina display running iOS ≤ 6 -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicon/144.png?v=055fa032cef7458868cb2695b06b870779b6df408cd5607453368410a69987b3b8a3db8afe08188b0d2eabe728ca3b8e3e7f7d655efaa7aea5309dd40fa97c1a" integrity="sha512-BV+gMs73RYhoyyaVsGuHB3m230CM1WB0UzaEEKaZh7O4o9uK/ggYiw0uq+coyjuOPn99ZV76p66lMJ3UD6l8Gg==" crossorigin="anonymous">
+		<!-- For iPhone with high-resolution Retina display running iOS ≥ 7 -->
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/favicon/120.png?v=464987c585472095d2df3da2581c508da07dd654ed3844fc58934e5f5d638944de85830a92dc88a43da6cc65e94a5f7043e1ed4f8197a902ccdf9cbc7026c9c2" integrity="sha512-RkmHxYVHIJXS3z2iWBxQjaB91lTtOET8WJNOX11jiUTehYMKktyIpD2mzGXpSl9wQ+HtT4GXqQLM35y8cCbJwg==" crossorigin="anonymous">
+		<!-- For iPhone with high-resolution Retina display running iOS ≤ 6 -->
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicon/114.png?v=01a2b520ec7a96eeb418920a9bbced9f4c5c8e9a066424c003ca49eda9d4aa54782dca3a50d87b046e6ae40c7860afa4ff0dd351a919c52b126cc2670c073fc9" integrity="sha512-AaK1IOx6lu60GJIKm7ztn0xcjpoGZCTAA8pJ7anUqlR4Lco6UNh7BG5q5Ax4YK+k/w3TUakZxSsSbMJnDAc/yQ==" crossorigin="anonymous">
+		<!-- For first- and second-generation iPad -->
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicon/72.png?v=365e975f0bd0fc2e93cdf3db9013f43452c37ab3acefef8f417b89773a81d250f4f3be44abe56513ab7110b0ec016f53db721a2815af4508c4f5ed95dc9b32ee" integrity="sha512-Nl6XXwvQ/C6TzfPbkBP0NFLDerOs7++PQXuJdzqB0lD0875Eq+VlE6txELDsAW9T23IaKBWvRQjE9e2V3Jsy7g==" crossorigin="anonymous">
+		<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices -->
+		<link rel="apple-touch-icon-precomposed" href="/img/favicon/57.png?v=01af6d6c600f087ae78634c6e11e382a28179d4df2344e252103ab09bcf387b49a1e399597efef3684bc61d4cfe88af66c885f3c066184305faed53aa323ac33" integrity="sha512-Aa9tbGAPCHrnhjTG4R44KigXnU3yNE4lIQOrCbzzh7SaHjmVl+/vNoS8YdTP6Ir2bIhfPAZhhDBfrtU6oyOsMw==" crossorigin="anonymous">
+		<!-- Favicons targeted to any additional png sizes that you add that aren't covered above -->
+		<link rel="icon" href="/img/favicon/32.png?v=bbd84a1463729d0a80b5f1c8484ca72b67578687c468f44698497d83497d84dcc3bb4c5b6bd960b83a0f17b869578d08315696fba1435f38f7bc85271787d52e" sizes="32x32" integrity="sha512-u9hKFGNynQqAtfHISEynK2dXhofEaPRGmEl9g0l9hNzDu0xba9lguDoPF7hpV40IMVaW+6FDXzj3vIUnF4fVLg==" crossorigin="anonymous">
+	
+		
+	
+
+		<script src="/js/ga.js?v=ca8a34f445a936e5cfda083d4f435aa89c5061587375513faa27244765d674887100cc34dd7ff84682d3f5d90331a7a75483ce9258995bbccb9bd08c724bedf4" async="async" defer="defer" integrity="sha512-yoo09EWpNuXP2gg9T0NaqJxQYVhzdVE/qickR2XWdIhxAMw03X/4RoLT9dkDMaenVIPOkliZW7zLm9CMckvt9A==" crossorigin="anonymous"></script>
+		<script src="/js/haxe.io.js?v=692c4fc72930f5cc7ce37053ff70f32dcba0d77f7475f98aa69f658a4f9b02c4ee7ea1da2fbb4758124ef8980869eb4c6865c36fb3367fb5702dbda8366e71a1" async="async" defer="defer" data-community-patreons="/data/patreons.json" integrity="sha512-aSxPxykw9cx843BT/3DzLcug1390dfmKpp9lik+bAsTufqHaL7tHWBJO+JgIaetMaGXDb7M2f7VwLb2oNm5xoQ==" crossorigin="anonymous"></script>
+		<script src="/js/outbound-link-tracker.js?v=cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e" async="async" defer="defer" integrity="sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==" crossorigin="anonymous"></script>
+	
+	</head>
+	<body>
+		
+			<!--<span id="markdown"></span>-->
+		
+	
+	
+
+	
+
+
+		
+	<header class="grid">
+    <div class="grid-1-1">
+      <a type="image/logo" href="/">
+        <svg viewBox="0 0 320 320" enable-background="new">
+          <g>
+            <g id="a" transform="translate(-2,-2)">
+              <path stroke-width="15.6" stroke="#000" d="m93.7 25.3-68.4 68.3" stroke-linecap="round" fill="none"></path>
+              <path stroke-width="15.3" stroke="#000" id="b" d="m52.4 153 36.6-37" stroke-linecap="round" transform="translate(2)" fill="none"></path>
+              <path stroke-width="14" stroke="#000" d="m271 22.5-246 246" stroke-linecap="round" fill="none"></path>
+              <use height="1052.3622" y="0" x="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" width="744.09448" transform="translate(60,-60)"></use>
+            </g>
+            <use height="1052.3622" y="0" x="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a" width="744.09448" transform="matrix(-1 0 0 -1 332 331)"></use>
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div class="hero">
+      <h1>Haxe Roundup № 377</h1>
+      <div class="details">
+				by 
+				
+					<a rel="author nofollow" title="Skial Bainn" href="//twitter.com/skial">Skial Bainn</a>
+				
+				editted on 
+				<time pubdate="2017-03-27 14:30:00" datetime="2017-03-27 11:07:00">Monday 27th March 2017</time>
+			</div>
+    </div>
+  </header>
+
+		<article>
+			<div class="grid">
+				<aside class="grid-1-3">
+					<a href="https://github.com/skial/haxe.io/issues?labels=next-roundup&amp;page=1&amp;state=open">Suggest a link</a> 
+					<a href="https://github.com/skial/haxe.io/tree/master/src/roundups/377.md">Correct this issue</a>
+				</aside>
+				<section class="grid-2-3">
+					
+<p>Welcome to the latest edition of the Haxe Roundup. <a href="http://haxe.org/?utm_source=haxe.io">Haxe</a> is a high level, strictly typed programming language and cross-compiler.</p>
+<h2 id="CommunityUpdates"><a name="CommunityUpdates" class="markdown-it-headinganchor" href="#"></a>Community Updates</h2>
+<h3 id="NewsandArticles"><a name="NewsandArticles" class="markdown-it-headinganchor" href="#"></a>News and Articles</h3>
+<ul>
+<li>Exilium dev log <a href="https://twitter.com/5Mixer/status/845913051761016832">update</a>.</li>
+<li>New Armory builds out with <a href="https://twitter.com/luboslenco/status/844550609273573376">improved renderer</a>.</li>
+</ul>
+<h3 id="UpcomingEvents"><a name="UpcomingEvents" class="markdown-it-headinganchor" href="#"></a>Upcoming Events</h3>
+<ul>
+<li><a href="https://twitter.com/damoebius">David Mouton</a> will speak about Haxe at <a href="http://cfp.devoxx.fr/2017/talk/EFI-6314/Beyond_Javascript">Devoxx France</a> this year. <img class="emoji" draggable="false" alt="🇫🇷" src="/twemoji/svg/1f1eb-1f1f7.svg?v=d0e2b00330c68cefd52792492ac976432cc7df0e09e5d7413556c952c0f84df740ca802636b6d1a5df789b8abb054f0ec79bb214e2862a2d5cfc94f1a3a0361d" integrity="sha512-0OKwAzDGjO/VJ5JJKsl2QyzH3w4J5ddBNVbJUsD4TfdAyoAmNrbRpd94m4q7BU8Ox5uyFOKGKi1c/JTxo6A2HQ==" crossorigin="anonymous"></li>
+<li><a href="https://github.com/bablukid">François Barbut</a> will speak <a href="http://www.jdll.org/events/decouvrez-haxe-le-graal-du-developpeur-touche-a-tout/">about Haxe</a> and <a href="http://www.jdll.org/events/cagette-net-un-logiciel-libre-pour-le-circuit-court/">Cagette.net</a>, a open source webapp for  CSA / food co-ops at “les Journées du logiciel libre” in Lyon, April 2. <img class="emoji" draggable="false" alt="🇫🇷" src="/twemoji/svg/1f1eb-1f1f7.svg?v=d0e2b00330c68cefd52792492ac976432cc7df0e09e5d7413556c952c0f84df740ca802636b6d1a5df789b8abb054f0ec79bb214e2862a2d5cfc94f1a3a0361d" integrity="sha512-0OKwAzDGjO/VJ5JJKsl2QyzH3w4J5ddBNVbJUsD4TfdAyoAmNrbRpd94m4q7BU8Ox5uyFOKGKi1c/JTxo6A2HQ==" crossorigin="anonymous"></li>
+<li>Add an <a href="https://github.com/skial/haxe.io/labels/events">upcoming event</a> about Haxe.</li>
+</ul>
+<h3 id="JobOffers%26Bounties"><a name="JobOffers%26Bounties" class="markdown-it-headinganchor" href="#"></a>Job Offers &amp; Bounties</h3>
+<ul>
+<li>Add an <a href="https://github.com/skial/haxe.io/labels/jobs">available job</a> <em>involving</em> Haxe.</li>
+</ul>
+<h3 id="CodeExamples"><a name="CodeExamples" class="markdown-it-headinganchor" href="#"></a>Code Examples</h3>
+<ul>
+<li>Change global output for all Floats for <a href="https://groups.google.com/d/msg/haxelang/_q3Q3yqZ2LQ/R0idRNQdCQAJ">the HXCPP target</a>.</li>
+<li>Have an example you want to add? Consider <a href="https://github.com/HaxeFoundation/code-cookbook#contributing-articles">contributing</a> to the <code>code.haxe.org</code> cookbook.</li>
+</ul>
+<h3 id="PreviewsDemos%26Snippets"><a name="PreviewsDemos%26Snippets" class="markdown-it-headinganchor" href="#"></a>Previews Demos &amp; Snippets</h3>
+<ul>
+<li>Exilium <em>“corrupt”</em> <a href="https://twitter.com/5Mixer/status/845890121022918656">boss</a>.</li>
+<li>Armory global <a href="https://twitter.com/luboslenco/status/845732684676648962">illumination</a>.</li>
+<li>Point and click <a href="https://twitter.com/eduardogrdev/status/845700496140750848">adventure</a>.</li>
+<li>Haxe, NodeJs and Microbit <a href="https://twitter.com/MatthijsKamstra/status/845176397286932486">picture</a>.</li>
+</ul>
+<h3 id="AppandGameReleases"><a name="AppandGameReleases" class="markdown-it-headinganchor" href="#"></a>App and Game Releases</h3>
+<ul>
+<li>Open Source <a href="https://twitter.com/ProgrammerRyan/status/845109928364654593">Media player</a>.</li>
+<li><a href="https://twitter.com/ohsat_games/status/845458724277927937">Magnet Man Adventures</a> made with HaxeFlixel currently in alpha.</li>
+</ul>
+<h3 id="_Some_LibraryReleases"><a name="_Some_LibraryReleases" class="markdown-it-headinganchor" href="#"></a><em>Some</em> Library Releases</h3>
+<ul>
+<li><a href="http://lib.haxe.org/p/sconepunk">sconepunk <code>0.0.4</code></a></li>
+<li><a href="http://lib.haxe.org/p/sconelib">sconelib <code>0.0.2</code></a></li>
+<li><a href="http://lib.haxe.org/p/HaxePunk">HaxePunk <code>2.6.1</code></a></li>
+<li><a href="http://lib.haxe.org/p/waud">waud <code>0.9.9</code></a></li>
+<li><a href="http://lib.haxe.org/p/lime">lime <code>4.0.2</code></a></li>
+<li><a href="http://lib.haxe.org/p/lime-samples">lime-samples <code>4.0.1</code></a></li>
+<li><a href="http://lib.haxe.org/p/nme">nme <code>5.7.1</code></a></li>
+<li><a href="http://lib.haxe.org/p/json2object">json2object <code>2.2.3</code></a></li>
+<li><a href="http://lib.haxe.org/p/blitting">blitting <code>0.9.1</code></a></li>
+<li><a href="http://lib.haxe.org/p/hexmachina">hexmachina <code>0.18.0</code></a></li>
+</ul>
+<h2 id="UpdatesfromtheHaxecore"><a name="UpdatesfromtheHaxecore" class="markdown-it-headinganchor" href="#"></a>Updates from the Haxe core</h2>
+<h3 id="CurrentProposals"><a name="CurrentProposals" class="markdown-it-headinganchor" href="#"></a>Current Proposals</h3>
+<ul>
+<li>Add <a href="https://github.com/HaxeFoundation/haxe-evolution/pull/18">Macro method forwarding</a>.</li>
+<li>Add <a href="https://github.com/HaxeFoundation/haxe-evolution/pull/15">Generator Expressions</a>.</li>
+<li>Support <a href="https://github.com/HaxeFoundation/haxe-evolution/pull/12">Inline XML</a>. <img class="emoji" draggable="false" alt="🌟" src="/twemoji/svg/1f31f.svg?v=7b738f88ea7d2008f084a8c3d93a4e3ead1ad4c4da8016bd294795b97644a7956ca25d93b95495d5c789ebc2cf1e95651d9ce225855ba273230b1ff92de13b4f" integrity="sha512-e3OPiOp9IAjwhKjD2TpOPq0a1MTagBa9KUeVuXZEp5Vsol2TuVSV1ceJ68LPHpVlHZziJYVbonMjCx/5LeE7Tw==" crossorigin="anonymous"></li>
+<li>Add <a href="https://github.com/HaxeFoundation/haxe-evolution/pull/11">Union Types</a>.</li>
+<li>Add <a href="https://github.com/HaxeFoundation/haxe-evolution/pull/8">Arrow functions</a>.</li>
+<li>Add the <a href="https://github.com/HaxeFoundation/haxe-evolution/pull/7">Spread operator</a>.</li>
+<li>Do you have an idea to <em>improve</em> Haxe? Consider <a href="https://github.com/HaxeFoundation/haxe-evolution">creating a proposal</a>.</li>
+</ul>
+<h3 id="CoreChanges"><a name="CoreChanges" class="markdown-it-headinganchor" href="#"></a>Core Changes</h3>
+<p>22 commits have been made to Haxe compiler in the <a href="https://github.com/issues?utf8=%E2%9C%93&amp;q=closed%3A2017-03-21..2017-03-27+org%3Ahaxefoundation+is%3Aclosed+">last week</a>.</p>
+<ul>
+<li>Ocaml <code>TryCatchWrapper</code> available for all target generators - <a href="https://github.com/HaxeFoundation/haxe/pull/6128">merged</a>.</li>
+<li>Allow <code>TOptional(null)</code> and generate monomorphs - <a href="https://github.com/HaxeFoundation/haxe/pull/6126">open</a>.</li>
+<li>Use native arrays for dynamic function invocation for the CS and Java targets - <a href="https://github.com/HaxeFoundation/haxe/pull/6125">merged</a>.</li>
+<li>Split <code>gencommon</code> - <a href="https://github.com/HaxeFoundation/haxe/pull/6122">merged</a>.</li>
+<li>Use Ocamlfind - <a href="https://github.com/HaxeFoundation/haxe/pull/6123">merged</a>.</li>
+<li>Rework <code>Enum</code> to <code>Class</code> generation for CS target - <a href="https://github.com/HaxeFoundation/haxe/pull/6119">merged</a> .</li>
+</ul>
+<p>You can get started using the latest features by downloading a <a href="http://build.haxe.org">nightly build</a> of Haxe.</p>
+<p>Take it easy everyone and have a good week!</p>
+
+				</section>
+			</div>
+		</article>
+		
+	<footer class="grid">
+		<div class="grid-1-1">
+			<svg enable-background="new" viewBox="0 0 320 320">
+				<g>
+					<g id="a" transform="translate(-2,-2)">
+						<path d="m93.7 25.3-68.4 68.3" stroke="#000" stroke-linecap="round" stroke-width="15.6" fill="none"></path>
+						<path id="b" d="m52.4 153 36.6-37" transform="translate(2)" stroke="#000" stroke-linecap="round" stroke-width="15.3" fill="none"></path>
+						<path d="m271 22.5-246 246" stroke="#000" stroke-linecap="round" stroke-width="14" fill="none"></path>
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" transform="translate(60,-60)" height="1052.3622" width="744.09448" y="0" x="0"></use>
+					</g>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a" transform="matrix(-1 0 0 -1 332 331)" height="1052.3622" width="744.09448" y="0" x="0"></use>
+				</g>
+			</svg>
+		</div>
+	</footer>
+
+	</body></html>

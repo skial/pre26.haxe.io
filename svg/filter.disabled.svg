@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="filter disabled"
+   width="16px"
+   height="20px"
+   viewBox="0 0 16 20"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="filter.disabled.svg">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="944"
+     inkscape:window-height="1012"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="11.8"
+     inkscape:cx="5.8208407"
+     inkscape:cy="11.779661"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4"
+     transform="translate(0.25423728,-0.08474576)">
+    <path
+       d="m 14.245764,0.05084728 -7.500001,7.49999952 0,5.4999962 c 0,0.55 0.375,0.75 0.832,0.445 l 1.336,-0.891 c 0.458,-0.304 0.832,-1.004 0.832,-1.554 l 0,-3.9999962 5.232001,-5.232 c 0.972,-0.97299992 0.643,-1.76799952 -0.732,-1.76799952 z"
+       id="path6"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 12.151764,-0.85615244 c -0.048,-0.108 -0.11,-0.21099996 -0.199,-0.30000006 -0.391,-0.3910002 -1.023,-0.3910002 -1.414,0 l -1.207001,1.20699978 -7.086,0 c -1.37500031,0 -1.70500031,0.7949996 -0.7320001,1.76799952 l 3.0250001,3.025 -3.5000003,3.5 c -0.39100001,0.3909992 -0.39100001,1.0229978 0,1.4139968 0.1950001,0.1949996 0.4510002,0.2929994 0.7070003,0.2929994 0.256,0 0.512,-0.098 0.707,-0.2929994 l 0.707,-0.7069982 8.793001,-8.79299824 c 0.302,-0.30199984 0.364,-0.74599964 0.199,-1.1139996 z"
+       id="path8"
+       inkscape:connector-curvature="0" />
+  </g>
+  <text
+     x="0"
+     y="31"
+     fill="#000000"
+     font-size="5px"
+     font-weight="bold"
+     font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+     id="text10">Created by Rflor</text>
+  <text
+     x="0"
+     y="36"
+     fill="#000000"
+     font-size="5px"
+     font-weight="bold"
+     font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+     id="text12">from the Noun Project</text>
+</svg>

@@ -1,0 +1,218 @@
+<html class="/videos" lang="en"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1" name="viewport"><meta content="summary_large_image" name="twitter:card"><meta content="@skial" name="twitter:site"><meta content="@skial" name="twitter:creator"><meta content="C++ Magic by Hugh Sanderson | Haxe.io" name="twitter:title"><meta content="Silex Labs originally posted the article WWX 2014 Speech: Hugh Sanderson C++ Magic which links to the YouTube videos, Hugh's slides and a brief synopsis of the talk. Below are the videos and my own..." name="twitter:description"><meta content="https://haxe.io/img/roundups/wwx/c++-magic/preview.png" name="twitter:image"><meta property="og:title" content="C++ Magic by Hugh Sanderson | Haxe.io"><meta property="og:image" content="http://haxe.io/img/roundups/wwx/c++-magic/preview.png"><meta property="og:url" content="http://haxe.io/index"><meta property="og:description" content="Silex Labs originally posted the article WWX 2014 Speech: Hugh Sanderson C++ Magic which links to the YouTube videos, Hugh's slides and a brief synopsis of the talk. Below are the videos and my own..."><meta property="og:type" content="article"><meta property="og:site_name" content="Haxe.io — News And Information For Haxe Developers"><meta content="Silex Labs originally posted the article WWX 2014 Speech: Hugh Sanderson C++ Magic which links to the YouTube videos, Hugh's slides and a brief synopsis of the talk. Below are the videos and my own..." name="description"><link rel="author" href="https://plus.google.com/+SkialBainn/posts"><link rel="apple-touch-icon-precomposed" href="/img/favicon/152.png?v=daf8deb14791542ce2877f1f163a5d89"><meta content="#f15922" name="msapplication-TileColor"><meta content="/mstile-144x144.png?v=wAANbdxLQn" name="msapplication-TileImage"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png?v=wAANbdxLQn"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png?v=wAANbdxLQn"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png?v=wAANbdxLQn"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png?v=wAANbdxLQn"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png?v=wAANbdxLQn"><link rel="apple-touch-icon-precomposed" href="/img/favicon/57.png?v=c069c84d7fbda9ed443ef35df56934f3"><link rel="icon" sizes="32x32" href="/img/favicon/32.png?v=0c5fed18e7f0173b9664c235331708b3"><title>C++ Magic by Hugh Sanderson | Haxe.io</title><link rel="stylesheet" href="/css/normalize.css?v=4cc666352273d3377c7f8c3aeae0b8d1"><link rel="stylesheet" href="/css/normalize-opentype.css?v=ddf25a0d0ed00b44da3f867313b91ab5"><link rel="stylesheet" href="/css/haxe.io.css?v=2d50a45a797f2ebf0c793952745bb82d"><link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans:600,400,700,800|Gentium Book Basic:400,700,400italic,700italic&text=C+MagicbyHuhSndersoklBp7tJ2014TfOvwDmxLWX:Y,'.“”jI_(&#34;)F*NA3U8@/->{P<;z}=6G"><script>!function(e,a,t,n,c,o,r){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),r=a.getElementsByTagName(t)[0],o.async=1,o.src=n,r.parentNode.insertBefore(o,r)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49222122-1","auto"),ga("require","displayfeatures"),ga("require","outboundLinkTracker"),ga("set","forceSSL",!0),ga("send","pageview")</script><link rel="stylesheet" href="/css/haxe.flat16.css?v=b611550205d36ebb3ca5bf017a76c4ca"><link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=wAANbdxLQn"><link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=wAANbdxLQn"><link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=wAANbdxLQn"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=wAANbdxLQn"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=wAANbdxLQn"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=wAANbdxLQn"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png?v=wAANbdxLQn"><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png?v=wAANbdxLQn"><link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png?v=wAANbdxLQn"><link rel="manifest" href="/manifest.json?v=wAANbdxLQn"><link rel="mask-icon" color="#fffdf9" href="/safari-pinned-tab.svg?v=wAANbdxLQn"><link rel="shortcut icon" href="/favicon.ico?v=wAANbdxLQn"><meta name="theme-color" content="#ffffff"><script src="/js/haxe.io.js?v=b7beb84ce2d9ee56fae8213badc6fe86" async defer data-community-patreons="/data/patreons.json"></script><script src="/js/outbound-link-tracker.js?v=afecf046a88be6de2d382f62428b65c9" async defer></script><script innerhtml="(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		
+
+				ga('create', 'UA-49222122-1', 'auto');
+
+				ga('require', 'displayfeatures');
+
+				ga('require', 'outboundLinkTracker');
+
+				ga('set', 'forceSSL', true);
+
+				ga('send', 'pageview');">!function(e,a,t,n,c,o,r){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),r=a.getElementsByTagName(t)[0],o.async=1,o.src=n,r.parentNode.insertBefore(o,r)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49222122-1","auto"),ga("require","displayfeatures"),ga("require","outboundLinkTracker"),ga("set","forceSSL",!0),ga("send","pageview")</script><meta property="og:image:secure_url" content="https://haxe.io/img/roundups/wwx/c++-magic/preview.png"><meta property="og:image:width" content="1904"><meta property="og:image:height" content="992"><meta property="og:image:type" content="image/png"></head><body><header class="grid"><div class="grid-1-1"><a type="image/logo" href="/"><svg viewBox="0 0 320 320" enable-background="new"><g><g id="a" transform="translate(-2,-2)"><path stroke-width="15.6" stroke="#000" d="m93.7 25.3-68.4 68.3" stroke-linecap="round" fill="none"></path><path stroke-width="15.3" stroke="#000" id="b" d="m52.4 153 36.6-37" stroke-linecap="round" transform="translate(2)" fill="none"></path><path stroke-width="14" stroke="#000" d="m271 22.5-246 246" stroke-linecap="round" fill="none"></path><use height="1052.3622" y="0" x="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" width="744.09448" transform="translate(60,-60)"></use></g><use height="1052.3622" y="0" x="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a" width="744.09448" transform="matrix(-1 0 0 -1 332 331)"></use></g></svg></a></div><div class="hero"><h1>C++ Magic <em>by</em> Hugh Sanderson</h1><div class="details">by <a title="@skial" rel="author nofollow" href="http://twitter.com/skial">Skial Bainn</a> published on <time pubdate="" datetime="2014-07-07 11:15">Monday 7th July 2014</time></div></div></header><article><div class="grid"><aside class="grid-1-3"><nav><h1>Table of Contents</h1><ul><li><a href="#Overview">Overview</a></li><li><a href="#Demo">Demo</a></li><li><a href="#Slides">Slides</a></li></ul></nav><a href="//silexlabs.org/"><img src="/svg/by-silexlabs.min.svg?v=a2e502c2c57f2045c25ab1a3ece3aa79"> </a><a href="https://github.com/skial/haxe.io/tree/master/src/roundups/wwx/c++ magic.md">Correct this article</a></aside><section class="grid-2-3"><p></p><blockquote><p><a title="Silex Labs" rel="nofollow" href="http://www.silexlabs.org/">Silex Labs</a> originally posted the article <a rel="nofollow" href="http://www.silexlabs.org/wwx2014-speech-hugh-sanderson-c-magic/">WWX 2014 Speech: Hugh Sanderson C++ Magic</a> which links to the YouTube videos, Hugh's slides and a brief synopsis of the talk. Below are the videos and my own overview of the talk.</p></blockquote><p></p><p></p><div class="embed-container"><iframe frameborder="0" src="//www.youtube.com/embed/k2rw7-uL6RU" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div><p></p><h2><a id="Overview" type="text/html" href="#Overview"><span></span></a>Overview</h2><p><a title="@GameHaxe" rel="nofollow" href="https://twitter.com/GameHaxe">Hugh</a> introduces <em>“C++ Magic”</em> which gives libraries access to platform specific functions.</p><p></p><figure><img title="Haxe C++ Magic" src="/img/wwx/2014/hugh-magic.jpg?v=592bb1e6177254fe4ce1432afa3326a3" alt="wwx 2014 haxe cpp magic social"><figcaption>Haxe C++ Magic</figcaption></figure><p></p><p>The most basic level of manipulation is to add paths and libraries to your <code>build.xml</code> file. Hugh classes this as nothing more than a conjurer of cheap tricks. You can control the build tool through the use of environment variables by using compiler defines or by toolchains which are usually part of a haxelib library.</p><p>Hugh goes onto to explain that <code>untyped</code> <em>“skips most type checking but still needs valid Haxe syntax”</em> to work. If you want to interface between Haxe and external code you need to use <code>__global__</code> and <code>__cpp__</code> along with <code>untyped</code>.</p><p><code>untyped __global__.MessageBox(0, "Hello", "Title", 0)</code> gives you access to the global scope which is useful as Haxe doesn't have one. On the other hand <code>untyped __cpp__('printF("Hello")')</code> parses as a local function call. In both cases <code>"Hello"</code> is autocast from a Haxe string to a native string.</p><p>Hugh has also introduced the <code>cpp.*</code> package which contains <code>NativeArray</code>, <code>NativeString</code>, which are to be used as <a title="Static Extensions - Haxe.org" rel="nofollow" href="http://haxe.org/manual/lf-static-extension.html">static extensions</a>, along with new native types <code>Float32</code> and <code>UInt8</code>.</p><p>He then talks briefly about metadata magic. He provides metadata for classes and functions. For classes you have the following:</p><ul><li><code>@:headerClassCode(...)</code> which injects member variables and inline functions.</li><li><code>@:headerCode(...)</code> which includes external headers.</li><li><code>@:headerNamespaceCode(...)</code> which allows you to add to the global namespace.</li><li><code>@:cppFileCode(...)</code> which allows you to include external headers only in C++ files.</li><li><code>@:cppNamespaceCode(...)</code> which implements static variables.</li><li><code>@:buildXml(...)</code> which allows you to add to the <code>build.xml</code> file.</li></ul><p>For function metadata you get the following:</p><ul><li><code>@:functionCode(...)</code></li><li><code>@:functionTailCode(...)</code></li></ul><p>Hugh states these are largely redundant as you should use <code>untyped __cpp_(...)</code> instead.</p><p>The next section is on <code>extern</code> magic. The C++ target has never supported extern classes like the other compiler targets, until now. This is now possible because of all the new features introduced above. Here is an example taken from Hugh's slides.</p><pre language="haxe"><code language="haxe"><span class="comment line">// Avoids generating dynamic accessors.</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="at">@</span>
+<span class="colon">:</span>
+<span class="const ident">unreflective</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="comment line">// Marks an extern class as using struct access(".") not pointer("->").</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="at">@</span>
+<span class="colon">:</span>
+<span class="const ident">structAccess</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="at">@</span>
+<span class="colon">:</span>
+<span class="const ident">include</span>
+<span class="parentheses open">(</span>
+<span class="const string">"string"</span>
+<span class="parentheses close">)</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="at">@</span>
+<span class="colon">:</span>
+<span class="const ident">native</span>
+<span class="parentheses open">(</span>
+<span class="const string">"std::string"</span>
+<span class="parentheses close">)</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="keyword extern">extern</span>
+<span class="space"> </span>
+<span class="keyword class">class</span>
+<span class="space"> </span>
+<span class="const ident">StdString</span>
+<span class="space"> </span>
+<span class="brace open">{</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">	</span>
+<span class="at">@</span>
+<span class="colon">:</span>
+<span class="const ident">native</span>
+<span class="parentheses open">(</span>
+<span class="const string">"new std::string"</span>
+<span class="parentheses close">)</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">	</span>
+<span class="keyword public">public</span>
+<span class="space"> </span>
+<span class="keyword static">static</span>
+<span class="space"> </span>
+<span class="keyword function">function</span>
+<span class="space"> </span>
+<span class="const ident">create</span>
+<span class="parentheses open">(</span>
+<span class="const ident">inString</span>
+<span class="colon">:</span>
+<span class="const ident">String</span>
+<span class="parentheses close">)</span>
+<span class="colon">:</span>
+<span class="const ident">cpp</span>
+<span class="colon">:</span>
+<span class="const ident">Pointer</span>
+<span class="binop lt">&lt;</span>
+<span class="const ident">StdString</span>
+<span class="binop gt">></span>
+<span class="semicolon">;</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">	</span>
+<span class="keyword public">public</span>
+<span class="space"> </span>
+<span class="keyword function">function</span>
+<span class="space"> </span>
+<span class="const ident">size</span>
+<span class="parentheses open">(</span>
+<span class="parentheses close">)</span>
+<span class="colon">:</span>
+<span class="const ident">Int</span>
+<span class="semicolon">;</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">	</span>
+<span class="keyword public">public</span>
+<span class="space"> </span>
+<span class="keyword function">function</span>
+<span class="space"> </span>
+<span class="const ident">find</span>
+<span class="parentheses open">(</span>
+<span class="const ident">str</span>
+<span class="colon">:</span>
+<span class="const ident">String</span>
+<span class="parentheses close">)</span>
+<span class="colon">:</span>
+<span class="const ident">Int</span>
+<span class="semicolon">;</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="brace close">}</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="keyword class">class</span>
+<span class="space"> </span>
+<span class="const ident">Main</span>
+<span class="space"> </span>
+<span class="brace open">{</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">	</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">	</span>
+<span class="keyword public">public</span>
+<span class="space"> </span>
+<span class="keyword static">static</span>
+<span class="space"> </span>
+<span class="keyword function">function</span>
+<span class="space"> </span>
+<span class="const ident">main</span>
+<span class="parentheses open">(</span>
+<span class="parentheses close">)</span>
+<span class="space"> </span>
+<span class="brace open">{</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">		</span>
+<span class="keyword var">var</span>
+<span class="space"> </span>
+<span class="const ident">std</span>
+<span class="space"> </span>
+<span class="binop assign">=</span>
+<span class="space"> </span>
+<span class="const ident">StdString</span>
+<span class="dot">.</span>
+<span class="const ident">create</span>
+<span class="parentheses open">(</span>
+<span class="const string">"my std::string"</span>
+<span class="parentheses close">)</span>
+<span class="semicolon">;</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">		</span>
+<span class="const ident">trace</span>
+<span class="parentheses open">(</span>
+<span class="space"> </span>
+<span class="const ident">std</span>
+<span class="dot">.</span>
+<span class="const ident">value</span>
+<span class="dot">.</span>
+<span class="const ident">size</span>
+<span class="parentheses open">(</span>
+<span class="parentheses close">)</span>
+<span class="space"> </span>
+<span class="parentheses close">)</span>
+<span class="semicolon">;</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">		</span>
+<span class="const ident">std</span>
+<span class="dot">.</span>
+<span class="const ident">destroy</span>
+<span class="parentheses open">(</span>
+<span class="parentheses close">)</span>
+<span class="semicolon">;</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="tab">	</span>
+<span class="brace close">}</span>
+<span class="carriage"></span>
+<span class="newline">
+</span>
+<span class="brace close">}</span>
+<span class="carriage"></span>
+<span class="newline">
+</span></code></pre><p>Before Hugh shows off his demo, he goes into his future plans for the C++ target. This includes more native integration, a fully native Int64 implementation, an concurrent GC and fake classes and interfaces.</p><p></p><figure><img title="C++ Magic Demo" src="/img/wwx/2014/cpp_demo.jpg?v=250e85577cb58fa849d4dd5d4b806413" alt="wwx 2014 haxe cpp magic demo"><figcaption>C++ Magic Demo</figcaption></figure><p></p><h2><a id="Demo" type="text/html" href="#Demo"><span></span></a>Demo</h2><p>If you want to run the demo yourself, download the binary either for <a title="OSX CPP Magic Demo" rel="nofollow" href="http://gamehaxe.com/wwx/wwx2014-mac.tgz">OSX</a> or <a title="Windows CPP Magic Demo" rel="nofollow" href="http://gamehaxe.com/wwx/wwx2014-windows.zip">Windows</a>. You will need a webcam for it to work. If you want to attempt to build it yourself head over to Hugh's website for <a title="HXCPP Magic" rel="nofollow" href="http://gamehaxe.com/2014/05/28/wwx2014-talk-hxcpp-magic/">instructions</a>.</p><h2><a id="Slides" type="text/html" href="#Slides"><span></span></a>Slides</h2><p><a title="Hugh Sandersons WWX 2014 Speech Slide: C++ Magic" href="/@gamehaxe/slides/hxcpp-magic/wwx2014.swf">Hugh Sanderson's C++ Magic Slides</a></p></section></div></article><footer class="grid"><div class="grid-1-1"><svg viewBox="0 0 320 320" enable-background="new"><g><g id="a" transform="translate(-2,-2)"><path stroke-width="15.6" stroke="#000" d="m93.7 25.3-68.4 68.3" stroke-linecap="round" fill="none"></path><path stroke-width="15.3" stroke="#000" id="b" d="m52.4 153 36.6-37" stroke-linecap="round" transform="translate(2)" fill="none"></path><path stroke-width="14" stroke="#000" d="m271 22.5-246 246" stroke-linecap="round" fill="none"></path><use height="1052.3622" y="0" x="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" width="744.09448" transform="translate(60,-60)"></use></g><use height="1052.3622" y="0" x="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a" width="744.09448" transform="matrix(-1 0 0 -1 332 331)"></use></g></svg></div></footer></body></html>
